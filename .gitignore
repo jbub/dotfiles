@@ -1,0 +1,9 @@
+# os
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# pip
+pip/pip.log
+pip/cache
+
