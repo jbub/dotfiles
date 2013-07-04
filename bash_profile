@@ -1,3 +1,6 @@
+# paths
+export PROJECTS_PATH="$HOME/Documents/Projekty"
+
 # custom shell look
 export PS1="\u:\w\$ "
 
@@ -29,19 +32,24 @@ alias portupdate="sudo port selfupdate && sudo port upgrade outdated"
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 export VIRTUALENVWRAPPER_PYTHON=`which python`
+export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 source /opt/local/bin/virtualenvwrapper.sh-2.7
 
 # git
 alias gitup="git pl && git sb update"
 alias gitsb="git sb foreach git pl"
 
-# postgres
-export PATH="/opt/local/lib/postgresql92/bin":$PATHTH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+# mongodb
+alias mongostart="mongod --dbpath=$PROJECTS_PATH/MONGO/data"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# nginx
+alias nginxstart="sudo /opt/local/sbin/nginx"
+alias nginxstop="sudo /opt/local/sbin/nginx -s stop"
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# memcached
+alias memcachedstart="memcached -d"
+alias memcachedstop="killall memcached"
+
+# postgres.app
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
