@@ -40,7 +40,7 @@ ZSH_THEME="jbub"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,7 +52,7 @@ export PATH="/usr/sbin":$PATH
 export PATH="/sbin":$PATH
 export PATH="/usr/local/bin":$PATH
 export PATH="/opt/local/bin":$PATH
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
 
 # utf8 encoding
 export LC_CTYPE=en_US.UTF-8
