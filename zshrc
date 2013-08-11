@@ -44,10 +44,6 @@ plugins=(git virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
-# golang
-export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
-
 # path
 export PATH="/opt/local/bin":$PATH
 export PATH="/usr/bin":$PATH
