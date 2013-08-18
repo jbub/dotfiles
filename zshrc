@@ -45,12 +45,12 @@ plugins=(git virtualenv)
 source $ZSH/oh-my-zsh.sh
 
 # path
-export PATH="/opt/local/bin":$PATH
 export PATH="/usr/bin":$PATH
 export PATH="/bin":$PATH
 export PATH="/usr/sbin":$PATH
 export PATH="/sbin":$PATH
 export PATH="/usr/local/bin":$PATH
+export PATH="/opt/local/bin":$PATH
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
 export PATH="/opt/local/lib/mysql5/bin":$PATH
 
