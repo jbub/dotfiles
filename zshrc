@@ -51,10 +51,10 @@ export PATH="/bin":$PATH
 export PATH="/usr/sbin":$PATH
 export PATH="/sbin":$PATH
 export PATH="/usr/local/bin":$PATH
-export PATH="/opt/local/bin":$PATH
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
+export PATH="/opt/local/lib/mysql5/bin":$PATH
 
-# utf8 encoding
+# encoding
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
