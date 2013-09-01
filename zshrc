@@ -53,6 +53,7 @@ export PATH="/usr/local/bin":$PATH
 export PATH="/opt/local/bin":$PATH
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
 export PATH="/opt/local/lib/mysql5/bin":$PATH
+export PATH="/usr/local/go/bin":$PATH
 
 # encoding
 export LC_CTYPE=en_US.UTF-8
