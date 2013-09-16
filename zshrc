@@ -55,6 +55,10 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
 export PATH="/opt/local/lib/mysql5/bin":$PATH
 export PATH="/usr/local/go/bin":$PATH
 
+# golang
+export GOPATH=$HOME"/Projekty/GO/dev/src"
+export PATH=$HOME"/Projekty/GO/dev/bin":$PATH
+
 # encoding
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
