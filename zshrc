@@ -102,3 +102,6 @@ alias nginxstop="sudo /opt/local/sbin/nginx -s stop"
 # memcached
 alias memcachedstart="memcached -d"
 alias memcachedstop="killall memcached"
+
+# devpi
+alias devpi-ctl="$WORKON_HOME/devpiserver/bin/devpi-ctl"
