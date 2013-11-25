@@ -51,11 +51,18 @@ export PATH="/usr/sbin":$PATH
 export PATH="/sbin":$PATH
 export PATH="/usr/local/bin":$PATH
 export PATH="/opt/local/bin":$PATH
+
+# Postgres.app
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
+
+# mysql5
 export PATH="/opt/local/lib/mysql5/bin":$PATH
-export PATH="/usr/local/go/bin":$PATH
+
+# appengine
+export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
 
 # golang
+export PATH="/usr/local/go/bin":$PATH
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
 export PATH=$HOME"/Documents/Projekty/GO/dev/bin":$PATH
 
