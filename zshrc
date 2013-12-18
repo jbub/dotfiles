@@ -12,7 +12,7 @@ ZSH_THEME="jbub"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Comment this out to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
@@ -77,6 +77,7 @@ alias portupdate="sudo port selfupdate && sudo port upgrade outdated"
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=`which python`
 export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /opt/local/bin/virtualenvwrapper.sh-2.7
 
 # rvm
