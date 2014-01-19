@@ -1,0 +1,5 @@
+\x auto
+\timing
+\encoding unicode
+\pset null 'NULL'
+\set HISTSIZE 2000
