@@ -7,3 +7,5 @@ Desktop.ini
 pip/pip.log
 pip/cache
 
+# bower
+config/configstore/update-notifier-bower.yml
