@@ -53,7 +53,7 @@ export PATH="/usr/local/bin":$PATH
 export PATH="/opt/local/bin":$PATH
 
 # Postgres.app
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin":$PATH
+export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
 
 # mysql5
 export PATH="/opt/local/lib/mysql5/bin":$PATH
@@ -81,7 +81,7 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /opt/local/bin/virtualenvwrapper.sh-2.7
 
 # rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # git
 alias gitup="git pl && git sb update"
