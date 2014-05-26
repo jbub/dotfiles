@@ -64,7 +64,8 @@ export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
 # golang
 export PATH="/usr/local/go/bin":$PATH
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
-export PATH=$HOME"/Documents/Projekty/GO/dev/bin":$PATH
+export GOROOT="/usr/local/go"
+export PATH=GOPATH"/bin":$PATH
 
 # encoding
 export LC_CTYPE=en_US.UTF-8
