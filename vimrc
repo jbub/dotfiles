@@ -1,94 +1,89 @@
+" initial config
 set nocompatible
 filetype off
 filetype plugin indent off
 
-" set the runtime path
+" runtime path
 set runtimepath+=~/.vim/bundle/Vundle.vim
-set runtimepath+=$GOROOT/misc/vim
 
+" vundle
 call vundle#begin()
 
-Bundle "fholgado/Molokai2"
+Plugin 'gmarik/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'fatih/vim-go'
+Plugin 'fatih/molokai'
 
 call vundle#end()
-
-" set region
-set spelllang=en_gb
-
-" limit commands history
-set history=700
-
-" disable scrollbars
-set guioptions-=r
-set guioptions-=R
-set guioptions-=l
-set guioptions-=L
-
-" show status line
-set laststatus=2
-
-" turn on the wild menu
-set wildmenu
-
-" show current position
-set ruler
-
-" hide mouse when typing
-set mousehide
-
-" command bar height
-set cmdheight=2
 
 " enable syntax highlighting
 filetype plugin indent on
 syntax on
 
-" default file type is unix
-set ffs=unix,dos,mac
+"
+" Base
+"
 
-" expand tabs to spaces
-set expandtab
+set encoding=utf-8             " default encoding is utf-8
+set spelllang=en_gb            " set region
+set history=700                " limit commands history
+set ffs=unix,dos,mac           " default file type is unix
+set autoread                   " auto read external file changes
+set noerrorbells               " disable all sounds
+set backspace=indent,eol,start " real backspace
 
-" use smart tabs
-set smarttab
+"
+" Gui
+"
 
-" re-use a tab/window otherwise open a new tab
-set switchbuf=usetab,newtab
+set showcmd                    " show current typed command
+set showmode                   " show current mode
+set number                     " show line numbers
+set guioptions-=m              " disable menu
+set guioptions-=r              " disable right scrollbar
+set guioptions-=R              " disable right scrollbar
+set guioptions-=l              " disable left scrollbar
+set guioptions-=L              " disable left scrollbar
+set guioptions-=T              " disable toolbar
+set wildmenu                   " turn on the wild menu
+set ruler                      " show current position
+set mousehide                  " hide mouse when typing
+set cmdheight=2                " command bar height
+set switchbuf=usetab,newtab    " re-use a tab/window otherwise open a new tab
 
-" use 4 spaces for 1 tab
-set shiftwidth=4
-set tabstop=4
+"
+" Status bar
+"
 
-" break line after 100 characters
-set lbr
-set tw=100
+set laststatus=2               " show status line
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
-" auto indent
-set ai
+"
+" Indentation
+"
+set expandtab                  " expand tabs to spaces
+set smarttab                   " use smart tabs
+set shiftwidth=4               " use 4 spaces for 1 tab
+set tabstop=4                  " use 4 spaces for 1 tab
+set ai                         " auto indent
+set si                         " smart indent
+set wrap                       " wrap lines
+set tw=100                     " break line after 100 characters
 
-" smart indent
-set si
+"
+" Backups
+"
 
-" wrap lines
-set wrap
+set nobackup                   " disable backups
+set nowb                       " no automatic backup before overwriting
+set noswapfile                 " do not create swap files
 
-" auto read external file changes
-set autoread
+"
+" Color scheme
+"
 
-" disable backups
-set nobackup
-set nowb
-set noswapfile
-
-" run gofmt on all go files after saving
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
-
-" enable go compiler plugin
-autocmd FileType go compiler go
-
-colorscheme Molokai2
-
-let g:fullscreen_colorscheme = "iawriter"
-let g:fullscreen_font = "Cousine:h14"
-let g:normal_colorscheme = "Molokai2"
-let g:normal_font="Monaco:h13"
+if has("gui_macvim")
+    let macvim_skip_colorscheme=1
+    let g:molokai_original=1
+    colorscheme molokai
+endif
