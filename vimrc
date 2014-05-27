@@ -61,10 +61,11 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 "
 " Indentation
 "
-set expandtab                  " expand tabs to spaces
+set expandtab                  " expand tabs to spaces in insert mode
 set smarttab                   " use smart tabs
-set shiftwidth=4               " use 4 spaces for 1 tab
 set tabstop=4                  " use 4 spaces for 1 tab
+set softtabstop=4              " use 4 spaces in insert mode
+set shiftwidth=4               " use 4 spaces for reindenting operations
 set ai                         " auto indent
 set si                         " smart indent
 set wrap                       " wrap lines
