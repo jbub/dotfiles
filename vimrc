@@ -84,6 +84,8 @@ set noswapfile                 " do not create swap files
 "
 
 if has("gui_macvim")
+    set guifont=Ubuntu\ Mono:h13
+    set anti
     let macvim_skip_colorscheme=1
     let g:molokai_original=1
     colorscheme molokai
