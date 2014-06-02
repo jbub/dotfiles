@@ -44,19 +44,19 @@ plugins=(git mercurial)
 
 source $ZSH/oh-my-zsh.sh
 
+# encoding
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # path
-export PATH="/usr/bin":$PATH
 export PATH="/bin":$PATH
-export PATH="/usr/sbin":$PATH
 export PATH="/sbin":$PATH
+export PATH="/usr/sbin":$PATH
+export PATH="/usr/bin":$PATH
 export PATH="/usr/local/bin":$PATH
-export PATH="/opt/local/bin":$PATH
 
 # Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
-
-# mysql5
-export PATH="/opt/local/lib/mysql5/bin":$PATH
 
 # appengine
 export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
@@ -65,49 +65,27 @@ export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
 export PATH="/usr/local/go/bin":$PATH
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
 export GOROOT="/usr/local/go"
-export PATH=GOPATH"/bin":$PATH
+export PATH=$GOPATH"/bin":$PATH
 
-# encoding
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-
-# macports
-alias portupdate="sudo port selfupdate && sudo port upgrade outdated"
+# homebrew github api token
+export HOMEBREW_GITHUB_API_TOKEN=760126be00a771cbcec22ed142482d03817334ec
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=`which python`
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /opt/local/bin/virtualenvwrapper.sh-2.7
+source /usr/local/bin/virtualenvwrapper.sh
 
 # git
 alias gitup="git pl && git sb update"
 alias gitsb="git sb foreach git pl"
-
-# mysql
-alias mysqlstart="sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper start"
-alias mysqlstop="sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper stop"
-alias mysqlrestart="sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper restart"
-
-# apache
-alias apachestart="sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper start"
-alias apachestop="sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper stop"
-alias apacherestart="sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper restart"
 
 # ftp
 alias ftpload="sudo launchctl load -w /System/Library/LaunchDaemons/ftp.plist"
 alias ftpunload="sudo launchctl unload -w /System/Library/LaunchDaemons/ftp.plist"
 alias ftpstart="sudo launchctl start com.apple.ftpd"
 alias ftpstop="sudo launchctl stop com.apple.ftpd"
-
-# nginx
-alias nginxstart="sudo /opt/local/sbin/nginx"
-alias nginxstop="sudo /opt/local/sbin/nginx -s stop"
-
-# memcached
-alias memcachedstart="memcached -d"
-alias memcachedstop="killall memcached"
 
 # devpi
 alias devpi-ctl="$WORKON_HOME/devpiserver/bin/devpi-ctl"
