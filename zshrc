@@ -81,9 +81,6 @@ export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /opt/local/bin/virtualenvwrapper.sh-2.7
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 # git
 alias gitup="git pl && git sb update"
 alias gitsb="git sb foreach git pl"
