@@ -34,9 +34,10 @@ export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
 export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
 
 # golang
-export PATH="/usr/local/go/bin":$PATH
+export GOVERSION="1.2.2"
+export PATH="/usr/local/Cellar/go/"$GOVERSION"/bin":$PATH
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
-export GOROOT="/usr/local/go"
+export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$GOPATH"/bin":$PATH
 
 # homebrew github api token
@@ -51,13 +52,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # git
 alias gitup="git pl && git sb update"
-alias gitsb="git sb foreach git pl"
-
-# ftp
-alias ftpload="sudo launchctl load -w /System/Library/LaunchDaemons/ftp.plist"
-alias ftpunload="sudo launchctl unload -w /System/Library/LaunchDaemons/ftp.plist"
-alias ftpstart="sudo launchctl start com.apple.ftpd"
-alias ftpstop="sudo launchctl stop com.apple.ftpd"
 
 # devpi
-alias devpi-ctl="$WORKON_HOME/devpiserver/bin/devpi-ctl"
+alias devpi-ctl=$WORKON_HOME"/devpiserver/bin/devpi-ctl"
