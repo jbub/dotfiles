@@ -10,6 +10,7 @@ set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
 Plugin 'fatih/molokai'
@@ -93,3 +94,8 @@ if has("gui_macvim")
     let g:molokai_original=1         " use original molokai color scheme
     colorscheme molokai              " set molokai colorscheme
 endif
+
+" YouCompleteMe plugin settings
+let g:ycm_min_num_of_chars_for_completion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+
