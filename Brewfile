@@ -4,11 +4,13 @@ install curl
 install freetype
 install gcc
 install gdbm
+install ghostscript
 install git
 install git-extras
 install gmp
 install imagemagick
 install isl
+install jbig2dec
 install jpeg
 install libevent
 install libmpc
@@ -16,6 +18,7 @@ install libpng
 install libtiff
 install libtool
 install libyaml
+install little-cms2
 install macvim
 install memcached
 install mercurial
