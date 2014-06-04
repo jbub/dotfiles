@@ -1,4 +1,5 @@
 install cloog
+install cmake
 install cscope
 install curl
 install freetype
@@ -8,6 +9,8 @@ install ghostscript
 install git
 install git-extras
 install gmp
+install go
+install htop-osx
 install imagemagick
 install isl
 install jbig2dec
