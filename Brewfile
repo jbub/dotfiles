@@ -24,7 +24,7 @@ install libtiff
 install libtool
 install libyaml
 install little-cms2
-install macvim
+install macvim --override-system-vim
 install makedepend
 install memcached
 install mercurial
@@ -38,8 +38,8 @@ install pcre
 install phantomjs
 install pkg-config
 install pypy
-install python
-install python3
+install python --universal
+install python3 --universal
 install readline
 install redis
 install ruby
