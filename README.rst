@@ -74,7 +74,13 @@ Package YouCompleteMe needs to be compiled first:
 
     git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 
-    cd ~/.vim/bundle/YouCompleteMe && ./install.sh
+    cd ~/.vim/bundle/YouCompleteMe
+
+    # fetch all submodules
+    git submodule update --init --recursive
+
+    # start the compilation
+    ./install.sh
 
 Other packages can be installed from vim directly, just run this vim command:
 
