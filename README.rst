@@ -28,7 +28,7 @@ Install Homebrew:
 
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-Update ``/etc/paths`` so that ``/usr/local/bin`` goes first.
+Update ``/etc/paths`` so that ``/usr/local/bin`` goes first:
 
 .. code-block:: bash
 
@@ -55,6 +55,9 @@ Install packages from Brewfile:
 
     # symlink packages to /Applications
     brew linkapps
+
+    # run doctor again and fix problems if there are any
+    brew doctor
 
 MacVim
 ------
