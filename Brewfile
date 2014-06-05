@@ -23,10 +23,12 @@ install libtool
 install libyaml
 install little-cms2
 install macvim
+install makedepend
 install memcached
 install mercurial
 install mongodb
 install mpfr
+install msgpack
 install nginx
 install openssl
 install pcre
@@ -36,6 +38,9 @@ install python
 install python3
 install readline
 install redis
+install ruby
 install sqlite
+install swig
 install tree
 install xz
+install zeromq
