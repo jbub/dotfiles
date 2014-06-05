@@ -2,6 +2,7 @@ install cloog
 install cmake
 install cscope
 install curl
+install docker
 install freetype
 install gcc
 install gdbm
@@ -16,6 +17,7 @@ install isl
 install jbig2dec
 install jpeg
 install libevent
+install libgit2
 install libmpc
 install libpng
 install libtiff
@@ -30,8 +32,10 @@ install mongodb
 install mpfr
 install msgpack
 install nginx
+install node
 install openssl
 install pcre
+install phantomjs
 install pkg-config
 install pypy
 install python
