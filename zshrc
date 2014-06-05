@@ -1,6 +1,9 @@
 # path to zsh configuration
 ZSH=$HOME/.oh-my-zsh
 
+# custom oh-my-zsh dir
+ZSH_CUSTOM=$HOME"/.customzsh"
+
 # zsh theme
 ZSH_THEME="jbub"
 
@@ -13,7 +16,7 @@ DISABLE_CORRECTION="true"
 # zsh plugins
 plugins=(git mercurial)
 
-# run zsh
+# run oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # encoding
