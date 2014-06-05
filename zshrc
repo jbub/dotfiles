@@ -24,24 +24,24 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # path
-export PATH="/bin":$PATH
-export PATH="/sbin":$PATH
-export PATH="/usr/sbin":$PATH
-export PATH="/usr/bin":$PATH
-export PATH="/usr/local/bin":$PATH
+export PATH=$PATH:"/usr/local/bin"
+export PATH=$PATH:"/usr/bin"
+export PATH=$PATH:"/bin"
+export PATH=$PATH:"/usr/sbin"
+export PATH=$PATH:"/sbin"
 
 # Postgres.app
-export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
+export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
 # appengine
-export PATH=$HOME"/Documents/Apps/go_appengine":$PATH
+export PATH=$PATH:$HOME"/Documents/Apps/go_appengine"
 
 # golang
 export GOVERSION="1.2.2"
-export PATH="/usr/local/Cellar/go/"$GOVERSION"/bin":$PATH
+export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
 export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
-export PATH=$GOPATH"/bin":$PATH
+export PATH=$PATH:$GOPATH"/bin"
 
 # homebrew github api token
 export HOMEBREW_GITHUB_API_TOKEN=760126be00a771cbcec22ed142482d03817334ec
