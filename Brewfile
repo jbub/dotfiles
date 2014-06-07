@@ -17,6 +17,7 @@ install isl
 install jbig2dec
 install jpeg
 install libevent
+install libffi
 install libgit2
 install libmpc
 install libpng
