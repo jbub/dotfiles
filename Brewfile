@@ -35,6 +35,7 @@ install msgpack
 install nginx
 install node
 install openssl
+install osxfuse
 install pcre
 install phantomjs
 install pkg-config
