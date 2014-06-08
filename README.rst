@@ -93,3 +93,38 @@ Other packages can be installed from vim directly, just run this vim command:
 .. code-block:: bash
 
     :PluginInstall
+
+Sublime Text 3
+--------------
+
+Install Tomorrow-Night color scheme:
+
+.. code-block:: bash
+    
+    # move to desktop
+    cd ~/Desktop
+
+    # clone the repo
+    git clone git@github.com:chriskempson/tomorrow-theme.git tomorrow
+
+    # copy the color scheme
+    cp tomorrow/textmate/Tomorrow-Night.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+Install Soda Dark 3 theme:
+
+.. code-block:: bash
+
+    # move to packages directory
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+    
+    # clone theme
+    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+
+
+Install user settings:
+
+.. code-block:: bash
+    
+    cp ~/Dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+    cp ~/Dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
