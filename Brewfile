@@ -49,6 +49,7 @@ install readline
 install redis
 install sqlite
 install swig
+install tmux
 install tree
 install xz
 install zeromq
