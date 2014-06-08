@@ -95,6 +95,9 @@ if has("gui_macvim")
     colorscheme molokai              " set molokai colorscheme
 endif
 
+" file type based syntax highlighting
+au BufRead,BufNewFile *.sublime-settings set filetype=javascript
+
 " YouCompleteMe plugin settings
 let g:ycm_min_num_of_chars_for_completion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
