@@ -1,3 +1,5 @@
+install autoconf
+install automake
 install brew-cask
 install cloog
 install cmake
@@ -45,7 +47,6 @@ install python --universal
 install python3 --universal
 install readline
 install redis
-install ruby
 install sqlite
 install swig
 install tree
