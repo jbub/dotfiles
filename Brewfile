@@ -17,6 +17,7 @@ install isl
 install jbig2dec
 install jpeg
 install libevent
+install libffi
 install libgit2
 install libmpc
 install libpng
@@ -34,6 +35,7 @@ install msgpack
 install nginx
 install node
 install openssl
+install osxfuse
 install pcre
 install phantomjs
 install pkg-config
