@@ -3,6 +3,11 @@ Dotfiles
 
 My dotfiles managed by https://github.com/jbernard/dotfiles.
 
+Fonts
+-----
+
+Grab fonts from Ubuntu font site http://font.ubuntu.com/ and install them. I am using ``Ubuntu Mono`` with size of ``13``.
+
 Dotfiles
 --------
 
