@@ -1,0 +1,11 @@
+cask install adium
+cask install dashlane
+cask install dropbox
+cask install firefox
+cask install google-chrome
+cask install iterm2
+cask install pgadmin3
+cask install postgres
+cask install vagrant
+cask install virtualbox
+cask install vlc
