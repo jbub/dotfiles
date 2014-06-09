@@ -53,3 +53,4 @@ install tmux
 install tree
 install xz
 install zeromq
+install zsh
