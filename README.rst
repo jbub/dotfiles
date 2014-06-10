@@ -55,9 +55,12 @@ Install packages from Brewfile:
 .. code-block:: bash
 
     cd ~/Dotfiles
+    
+    # tap cask repository
+    brew tap caskroom/cask
 
     # install from Brewfile
-    brew bundle
+    brew bundle Brewfile
 
     # symlink packages to /Applications
     brew linkapps
@@ -65,10 +68,19 @@ Install packages from Brewfile:
     # run doctor again and fix problems if there are any
     brew doctor
 
+Install packages from Caskfile:
+
+.. code-block:: bash
+
+    cd ~/Dotfiles
+    
+    # install from Caskfile
+    brew bundle Caskfile
+
 Iterm2
 ------
 
-Just make sure you point to your settings folder ``~/.iterm2`` and import the color scheme ``jbub.itermcolors`` to your profile.
+Just make sure you point to your settings folder to ``~/.iterm2`` and import the color scheme ``jbub.itermcolors`` to your profile.
 
 MacVim
 ------
