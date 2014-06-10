@@ -65,6 +65,11 @@ Install packages from Brewfile:
     # run doctor again and fix problems if there are any
     brew doctor
 
+Iterm2
+------
+
+Just make sure you point to your settings folder ``~/.iterm2`` and import the color scheme ``jbub.itermcolors`` to your profile.
+
 MacVim
 ------
 
