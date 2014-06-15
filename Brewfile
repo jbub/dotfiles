@@ -43,8 +43,8 @@ install pcre
 install phantomjs
 install pkg-config
 install pypy
-install python --universal
-install python3 --universal
+install python
+install python3
 install readline
 install redis
 install sqlite
