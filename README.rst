@@ -1,6 +1,10 @@
 Dotfiles
 ========
 
+.. image:: https://requires.io/github/jbub/dotfiles/requirements.png?branch=master
+     :target: https://requires.io/github/jbub/dotfiles/requirements/?branch=master
+     :alt: Requirements Status
+
 My dotfiles managed by https://github.com/jbernard/dotfiles.
 
 Fonts
