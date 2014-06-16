@@ -28,13 +28,15 @@ install libtiff
 install libtool
 install libyaml
 install little-cms2
-install macvim --override-system-vim
+install macvim
 install makedepend
+install maven
 install memcached
 install mercurial
 install mongodb
 install mpfr
 install msgpack
+install mysql
 install nginx
 install node
 install openssl
@@ -47,10 +49,12 @@ install python
 install python3
 install readline
 install redis
+install ruby
 install sqlite
 install swig
 install tmux
 install tree
+install vim
 install xz
 install zeromq
 install zsh
