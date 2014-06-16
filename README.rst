@@ -149,3 +149,14 @@ Install user settings:
     cp ~/Dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
     cp ~/Dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
+Python packages
+---------------
+
+Install system python packages:
+
+.. code-block:: bash
+    
+    cd ~/Dotfiles
+
+    pip install -r requirements.txt
+
