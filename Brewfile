@@ -51,6 +51,7 @@ install readline
 install redis
 install ruby
 install sqlite
+install subversion
 install swig
 install tmux
 install tree
