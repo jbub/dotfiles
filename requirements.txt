@@ -8,7 +8,7 @@ beautifulsoup4==4.3.2
 bottle==0.12.7
 cffi==0.8.2
 charade==1.0.3
-click==2.0
+click==2.1
 cryptography==0.4
 Cython==0.20.2
 devpi-client==1.2.2
@@ -82,7 +82,7 @@ pyobjc-framework-SystemConfiguration==2.5.1
 pyobjc-framework-WebKit==2.5.1
 pyOpenSSL==0.14
 pyparsing==2.0.2
-pypi-cli==0.3.0
+pypi-cli==0.3.1
 PyRSS2Gen==1.1
 pytest==2.5.2
 python-dateutil==2.2
