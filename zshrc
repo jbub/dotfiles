@@ -37,11 +37,11 @@ export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.3/bin"
 export PATH=$PATH:$HOME"/Documents/Apps/go_appengine"
 
 # golang
-export GOVERSION="1.3rc2"
-export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
+export GOVERSION="1.3"
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
 export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
+export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 
 # homebrew github api token
 export HOMEBREW_GITHUB_API_TOKEN=760126be00a771cbcec22ed142482d03817334ec
