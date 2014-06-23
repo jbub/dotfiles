@@ -22,7 +22,7 @@ ecdsa==0.11
 envoy==0.0.2
 execnet==1.2.0
 Fabric==1.9.0
-flake8==2.1.0
+flake8==2.2.0
 Flask==0.10.1
 greenlet==0.4.2
 itsdangerous==0.24
