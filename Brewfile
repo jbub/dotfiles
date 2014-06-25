@@ -45,6 +45,7 @@ install pcre
 install phantomjs
 install pkg-config
 install pypy
+install pypy3
 install python
 install python3
 install readline
