@@ -14,6 +14,7 @@ install git
 install git-extras
 install gmp
 install go
+install go-app-engine-64
 install htop-osx
 install imagemagick
 install isl
