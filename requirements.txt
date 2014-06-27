@@ -47,7 +47,7 @@ py==1.4.20
 pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
-pygit2==0.20.3
+pygit2==0.21.0
 Pygments==1.6
 pyobjc-core==2.5.1
 pyobjc-framework-AddressBook==2.5.1
