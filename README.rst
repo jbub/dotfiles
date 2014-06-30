@@ -54,14 +54,18 @@ Run brew doctor first and make sure everything is ok:
 
     brew doctor
 
+Add repositories for formula versions and casks.
+
+.. code-block:: bash
+
+    brew tap homebrew/versions
+    brew tap caskroom/cask
+
 Install packages from Brewfile:
 
 .. code-block:: bash
 
     cd ~/Dotfiles
-    
-    # tap cask repository
-    brew tap caskroom/cask
 
     # install from Brewfile
     brew bundle Brewfile
