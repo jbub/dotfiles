@@ -31,7 +31,7 @@ install libyaml
 install little-cms2
 install macvim
 install makedepend
-install maven
+install maven2
 install memcached
 install mercurial
 install mongodb
