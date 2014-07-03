@@ -8,7 +8,7 @@ beautifulsoup4==4.3.2
 bottle==0.12.7
 cffi==0.8.2
 charade==1.0.3
-click==2.2
+click==2.3
 cryptography==0.4
 Cython==0.20.2
 devpi-client==1.2.2
