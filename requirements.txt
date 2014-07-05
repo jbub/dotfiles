@@ -8,7 +8,7 @@ beautifulsoup4==4.3.2
 bottle==0.12.7
 cffi==0.8.2
 charade==1.0.3
-click==2.3
+click==2.4
 cryptography==0.4
 Cython==0.20.2
 devpi-client==1.2.2
@@ -23,7 +23,7 @@ envoy==0.0.2
 execnet==1.2.0
 Fabric==1.9.0
 factory-boy==2.4.1
-flake8==2.2.1
+flake8==2.2.2
 Flask==0.10.1
 greenlet==0.4.2
 itsdangerous==0.24
@@ -33,7 +33,7 @@ macholib==1.6
 MarkupSafe==0.23
 matplotlib==1.3.1
 mccabe==0.2.1
-mercurial==3.0.1
+mercurial==3.0.2
 modulegraph==0.11.1
 msgpack-python==0.4.2
 nose==1.3.3
