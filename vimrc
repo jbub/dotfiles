@@ -103,3 +103,5 @@ au BufRead,BufNewFile *.sublime-settings set filetype=javascript
 let g:ycm_min_num_of_chars_for_completion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 
+" run NERDTree on startup
+autocmd vimenter * NERDTree
