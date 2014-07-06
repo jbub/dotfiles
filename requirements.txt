@@ -6,7 +6,7 @@ backports.ssl-match-hostname==3.4.0.2
 bdist-mpkg==0.5.0
 beautifulsoup4==4.3.2
 bottle==0.12.7
-cffi==0.8.2
+cffi==0.8.6
 charade==1.0.3
 click==2.4
 cryptography==0.4
