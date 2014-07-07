@@ -9,7 +9,7 @@ bottle==0.12.7
 cffi==0.8.6
 charade==1.0.3
 click==2.4
-cryptography==0.4
+cryptography==0.5
 Cython==0.20.2
 devpi-client==1.2.2
 devpi-common==1.2
