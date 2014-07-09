@@ -91,7 +91,7 @@ pytz==2014.4
 PyYAML==3.11
 pyzmq==14.3.1
 requests==2.3.0
-salt==2014.1.5
+salt==2014.1.6
 six==1.7.3
 SQLAlchemy==0.9.6
 stevedore==0.15
