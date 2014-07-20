@@ -91,7 +91,7 @@ pypi-cli==0.3.1
 pyramid-chameleon==0.3
 pyramid==1.5.1
 PyRSS2Gen==1.1
-pytest==2.5.2
+pytest==2.6.0
 python-dateutil==2.2
 pytz==2014.4
 PyYAML==3.11
@@ -111,7 +111,7 @@ vboxapi==1.0
 venusian==1.0
 virtualenv-clone==0.2.5
 virtualenv==1.11.6
-virtualenvwrapper==4.3
+virtualenvwrapper==4.3.1
 waitress==0.8.9
 WebOb==1.4
 Werkzeug==0.9.6
@@ -119,6 +119,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.07.15
+youtube-dl==2014.07.20
 zope.deprecation==4.1.1
 zope.interface==4.1.1
