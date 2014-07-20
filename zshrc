@@ -55,6 +55,3 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # git
 alias gitup="git pl && git sb update"
-
-# devpi
-alias devpi-ctl=$WORKON_HOME"/devpiserver/bin/devpi-ctl"
