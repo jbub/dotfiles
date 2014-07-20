@@ -1,6 +1,7 @@
 install autoconf
 install automake
 install brew-cask
+install bsdmake
 install cloog
 install cmake
 install cscope
@@ -56,6 +57,7 @@ install pcre
 install phantomjs
 install pinentry
 install pkg-config
+install proctools
 install pth
 install pypy
 install pypy3
