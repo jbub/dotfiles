@@ -107,7 +107,6 @@ tornado==4.0
 tox==1.7.2
 translationstring==1.1
 Twisted==14.0.0
-vboxapi==1.0
 venusian==1.0
 virtualenv-clone==0.2.5
 virtualenv==1.11.6
@@ -119,6 +118,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.07.20
+youtube-dl==2014.07.20.2
 zope.deprecation==4.1.1
 zope.interface==4.1.1
