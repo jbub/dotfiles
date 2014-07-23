@@ -100,7 +100,7 @@ repoze.lru==0.6
 requests==2.3.0
 salt==2014.1.7
 six==1.7.3
-SQLAlchemy==0.9.6
+SQLAlchemy==0.9.7
 stevedore==0.15
 termcolor==1.1.0
 tornado==4.0
@@ -118,6 +118,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.07.22
+youtube-dl==2014.07.23.2
 zope.deprecation==4.1.1
 zope.interface==4.1.1
