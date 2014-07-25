@@ -19,8 +19,10 @@ devpi-server==2.0.1
 devpi-web==2.0.0
 devpi==2.0.0
 Django==1.6.5
+docopt==0.6.2
 docutils==0.12
 dotfiles==0.6.3
+dulwich==0.9.7
 ecdsa==0.11
 envoy==0.0.2
 execnet==1.2.0
@@ -118,6 +120,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.07.23.2
+youtube-dl==2014.07.25.1
 zope.deprecation==4.1.1
 zope.interface==4.1.1
