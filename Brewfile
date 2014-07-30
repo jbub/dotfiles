@@ -1,3 +1,7 @@
+tap homebrew/versions
+tap homebrew/binary
+tap phinze/homebrew-cask
+
 install autoconf
 install automake
 install brew-cask
@@ -53,6 +57,7 @@ install nginx
 install node
 install openssl
 install osxfuse
+install packer
 install pcre
 install phantomjs
 install pinentry
