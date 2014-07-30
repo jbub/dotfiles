@@ -1,6 +1,5 @@
 tap homebrew/versions
 tap homebrew/binary
-tap phinze/homebrew-cask
 
 install autoconf
 install automake
