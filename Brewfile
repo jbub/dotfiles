@@ -1,3 +1,4 @@
+tap caskroom/cask
 tap homebrew/versions
 tap homebrew/binary
 
