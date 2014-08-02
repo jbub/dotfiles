@@ -101,7 +101,7 @@ PyYAML==3.11
 pyzmq==14.3.1
 repoze.lru==0.6
 requests==2.3.0
-salt==2014.1.7
+salt==2014.1.10
 six==1.7.3
 SQLAlchemy==0.9.7
 stevedore==0.15
