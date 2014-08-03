@@ -39,7 +39,7 @@ macholib==1.7
 MarkupSafe==0.23
 matplotlib==1.3.1
 mccabe==0.2.1
-mercurial==3.0.2
+mercurial==3.1
 modulegraph==0.12
 msgpack-python==0.4.2
 nose==1.3.3
@@ -121,6 +121,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.07.30
+youtube-dl==2014.08.02.1
 zope.deprecation==4.1.1
 zope.interface==4.1.1
