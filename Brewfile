@@ -15,6 +15,7 @@ install docker
 install freetype
 install gcc
 install gdbm
+install gettext
 install ghostscript
 install git
 install git-extras
