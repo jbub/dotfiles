@@ -50,7 +50,7 @@ pep8==1.5.7
 pip-tools==0.3.4
 pkginfo==1.2b1
 py2app==0.9
-py==1.4.22
+py==1.4.23
 pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
