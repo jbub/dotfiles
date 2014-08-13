@@ -10,7 +10,7 @@ certifi==14.05.14
 cffi==0.8.6
 Chameleon==2.16
 charade==1.0.3
-click==2.6
+click==3.0
 cryptography==0.5.3
 Cython==0.20.2
 devpi-client==2.0.1
