@@ -4,6 +4,7 @@ tap homebrew/binary
 
 install autoconf
 install automake
+install boot2docker
 install brew-cask
 install bsdmake
 install cloog
