@@ -10,7 +10,7 @@ certifi==14.05.14
 cffi==0.8.6
 Chameleon==2.16
 charade==1.0.3
-click==3.0
+click==3.1
 cryptography==0.5.3
 Cython==0.20.2
 devpi-client==2.0.1
@@ -24,7 +24,7 @@ docutils==0.12
 dotfiles==0.6.3
 dulwich==0.9.7
 ecdsa==0.11
-envoy==0.0.2
+envoy==0.0.3
 execnet==1.2.0
 Fabric==1.9.1
 factory-boy==2.4.1
@@ -110,6 +110,7 @@ tornado==4.0.1
 tox==1.7.2
 translationstring==1.1
 Twisted==14.0.0
+vboxapi==1.0
 venusian==1.0
 virtualenv-clone==0.2.5
 virtualenv==1.11.6
