@@ -128,6 +128,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.08.10
+youtube-dl==2014.08.21.2
 zope.deprecation==4.1.1
 zope.interface==4.1.1
