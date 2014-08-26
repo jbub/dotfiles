@@ -1,5 +1,5 @@
 [ui]
-username=jbub <git@jbub.eu>
+username=jbub <contact@jbub.eu>
 
 [extensions]
 prompt = ~/Documents/Apps/hg-prompt/prompt.py
