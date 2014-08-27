@@ -34,6 +34,7 @@ greenlet==0.4.3
 itsdangerous==0.24
 Jinja2==2.7.3
 LinkChecker==9.3
+lxml==3.3.5
 M2Crypto==0.22.3
 macholib==1.7
 MarkupSafe==0.23
