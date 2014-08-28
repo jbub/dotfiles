@@ -34,7 +34,7 @@ greenlet==0.4.3
 itsdangerous==0.24
 Jinja2==2.7.3
 LinkChecker==9.3
-lxml==3.3.5
+lxml==3.3.6
 M2Crypto==0.22.3
 macholib==1.7
 MarkupSafe==0.23
@@ -130,6 +130,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.08.28
+youtube-dl==2014.08.28.2
 zope.deprecation==4.1.1
 zope.interface==4.1.1
