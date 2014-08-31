@@ -109,7 +109,7 @@ pytz==2014.4
 PyYAML==3.11
 pyzmq==14.3.1
 repoze.lru==0.6
-requests==2.3.0
+requests==2.4.0
 salt==2014.1.10
 six==1.7.3
 SQLAlchemy==0.9.7
@@ -130,6 +130,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.08.28.2
+youtube-dl==2014.08.29
 zope.deprecation==4.1.1
 zope.interface==4.1.1
