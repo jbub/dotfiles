@@ -105,3 +105,6 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 
 " run NERDTree on startup
 autocmd vimenter * NERDTree
+
+" auto close NERDTree when there is no active window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
