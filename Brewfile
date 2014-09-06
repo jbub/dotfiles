@@ -23,6 +23,7 @@ install git-extras
 install gmp
 install gnupg
 install gnupg2
+install gnutls
 install go
 install go-app-engine-64
 install gpg-agent
@@ -40,10 +41,12 @@ install libgpg-error
 install libksba
 install libmpc
 install libpng
+install libtasn1
 install libtiff
 install libtool
 install libusb
 install libusb-compat
+install libvirt
 install libyaml
 install little-cms2
 install macvim
@@ -55,6 +58,7 @@ install mongodb
 install mpfr
 install msgpack
 install mysql
+install nettle
 install nginx
 install node
 install openssl
@@ -80,5 +84,6 @@ install tmux
 install tree
 install vim
 install xz
+install yajl
 install zeromq
 install zsh
