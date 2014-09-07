@@ -37,7 +37,7 @@ export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.3/bin"
 export PATH=$PATH:$HOME"/Documents/Apps/go_appengine"
 
 # golang
-export GOVERSION="1.3"
+export GOVERSION="1.3.1"
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
 export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
@@ -51,7 +51,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper_lazy.sh
 
 # git
 alias gitup="git pl && git sb update"
