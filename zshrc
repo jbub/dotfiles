@@ -14,7 +14,7 @@ CASE_SENSITIVE="true"
 DISABLE_CORRECTION="true"
 
 # zsh plugins
-plugins=(git mercurial)
+plugins=(git)
 
 # run oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -52,6 +52,9 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/local/bin/virtualenvwrapper_lazy.sh
+
+# java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home
 
 # git
 alias gitup="git pl && git sb update"
