@@ -12,7 +12,7 @@ Chameleon==2.16
 charade==1.0.3
 click==3.3
 cryptography==0.5.4
-Cython==0.20.2
+Cython==0.21
 devpi-client==2.0.2
 devpi-common==2.0.2
 devpi-server==2.0.6
@@ -34,7 +34,7 @@ greenlet==0.4.4
 itsdangerous==0.24
 Jinja2==2.7.3
 LinkChecker==9.3
-lxml==3.3.6
+lxml==3.4.0
 M2Crypto==0.22.3
 macholib==1.7
 MarkupSafe==0.23
@@ -109,8 +109,8 @@ pytz==2014.7
 PyYAML==3.11
 pyzmq==14.3.1
 repoze.lru==0.6
-requests==2.4.0
-salt==2014.1.10
+requests==2.4.1
+salt==2014.1.11
 six==1.7.3
 SQLAlchemy==0.9.7
 stevedore==0.15
@@ -130,6 +130,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.09.06
+youtube-dl==2014.09.10.1
 zope.deprecation==4.1.1
 zope.interface==4.1.1
