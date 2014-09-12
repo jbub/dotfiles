@@ -16,7 +16,7 @@ Cython==0.21
 devpi-client==2.0.2
 devpi-common==2.0.2
 devpi-server==2.0.6
-devpi-web==2.1.0
+devpi-web==2.1.1
 devpi==2.0.3
 Django==1.7
 docopt==0.6.2
@@ -111,11 +111,11 @@ pyzmq==14.3.1
 repoze.lru==0.6
 requests==2.4.1
 salt==2014.1.11
-six==1.7.3
+six==1.8.0
 SQLAlchemy==0.9.7
 stevedore==0.15
 termcolor==1.1.0
-tornado==4.0.1
+tornado==4.0.2
 tox==1.7.2
 translationstring==1.1
 Twisted==14.0.0
@@ -130,6 +130,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.09.10.1
+youtube-dl==2014.09.12
 zope.deprecation==4.1.1
 zope.interface==4.1.1
