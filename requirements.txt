@@ -56,7 +56,7 @@ py==1.4.24
 pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
-pygit2==0.21.2
+pygit2==0.21.3
 Pygments==1.6
 pyobjc-core==3.1
 pyobjc-framework-Accounts==3.1
@@ -130,6 +130,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.09.12
+youtube-dl==2014.09.15.1
 zope.deprecation==4.1.1
 zope.interface==4.1.1
