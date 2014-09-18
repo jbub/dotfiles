@@ -2,6 +2,7 @@ altgraph==0.12
 anyjson==0.3.3
 apache-libcloud==0.15.1
 Archive==0.3
+argparse==1.2.1
 backports.ssl-match-hostname==3.4.0.2
 bdist-mpkg==0.5.0
 beautifulsoup4==4.3.2
@@ -113,12 +114,12 @@ requests==2.4.1
 salt==2014.1.11
 six==1.8.0
 SQLAlchemy==0.9.7
-stevedore==0.15
+stevedore==1.0.0
 termcolor==1.1.0
 tornado==4.0.2
 tox==1.7.2
 translationstring==1.1
-Twisted==14.0.1
+Twisted==14.0.2
 venusian==1.0
 virtualenv-clone==0.2.5
 virtualenv==1.11.6
@@ -130,6 +131,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.09.16.1
+youtube-dl==2014.09.18
 zope.deprecation==4.1.1
 zope.interface==4.1.1
