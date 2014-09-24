@@ -1,0 +1,7 @@
+go get code.google.com/p/go.tools/cmd/goimports
+go get code.google.com/p/go.tools/cmd/godoc
+go get code.google.com/p/go.tools/cmd/vet
+go get code.google.com/p/go.tools/cmd/cover
+go get github.com/golang/lint/golint
+go get github.com/ChimeraCoder/gojson
+go get github.com/josharian/impl
