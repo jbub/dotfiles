@@ -5,3 +5,5 @@ go get code.google.com/p/go.tools/cmd/cover
 go get github.com/golang/lint/golint
 go get github.com/ChimeraCoder/gojson
 go get github.com/josharian/impl
+go get github.com/jinzhu/gorm
+go get github.com/gin-gonic/gin
