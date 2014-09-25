@@ -54,7 +54,7 @@ pep8==1.5.7
 pip-tools==0.3.5
 pkginfo==1.2b1
 py2app==0.9
-py==1.4.24
+py==1.4.25
 pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
@@ -105,7 +105,7 @@ pypi-cli==0.3.2
 pyramid-chameleon==0.3
 pyramid==1.5.1
 PyRSS2Gen==1.1
-pytest==2.6.2
+pytest==2.6.3
 python-dateutil==2.2
 pytz==2014.7
 PyYAML==3.11
@@ -118,7 +118,7 @@ SQLAlchemy==0.9.7
 stevedore==1.0.0
 termcolor==1.1.0
 tornado==4.0.2
-tox==1.7.2
+tox==1.8.0
 translationstring==1.1
 Twisted==14.0.2
 venusian==1.0
@@ -132,6 +132,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.09.22
+youtube-dl==2014.09.25
 zope.deprecation==4.1.1
 zope.interface==4.1.1
