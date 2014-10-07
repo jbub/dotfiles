@@ -60,6 +60,7 @@ install msgpack
 install mysql
 install nettle
 install nginx
+install nmap
 install node
 install openssl
 install osxfuse
