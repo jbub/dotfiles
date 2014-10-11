@@ -2,6 +2,13 @@ go get code.google.com/p/go.tools/cmd/goimports
 go get code.google.com/p/go.tools/cmd/godoc
 go get code.google.com/p/go.tools/cmd/vet
 go get code.google.com/p/go.tools/cmd/cover
+go get code.google.com/p/go.tools/cmd/gorename
+go get code.google.com/p/go.tools/cmd/eg
+go get code.google.com/p/go.tools/cmd/godex
+go get code.google.com/p/go.tools/cmd/gotype
+go get code.google.com/p/go.tools/cmd/oracle
+go get code.google.com/p/go.tools/cmd/present
+go get code.google.com/p/go.tools/cmd/stringer
 go get github.com/golang/lint/golint
 go get github.com/ChimeraCoder/gojson
 go get github.com/josharian/impl
