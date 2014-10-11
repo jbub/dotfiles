@@ -30,7 +30,7 @@ envoy==0.0.3
 execnet==1.2.0
 Fabric==1.10.0
 factory-boy==2.4.1
-flake8==2.2.3
+flake8==2.2.4
 Flask==0.10.1
 greenlet==0.4.4
 itsdangerous==0.24
@@ -42,7 +42,7 @@ macholib==1.7
 MarkupSafe==0.23
 matplotlib==1.4.0
 mccabe==0.2.1
-mercurial==3.1.1
+mercurial==3.1.2
 mock==1.0.1
 modulegraph==0.12
 msgpack-python==0.4.2
@@ -100,7 +100,7 @@ pyobjc-framework-SyncServices==3.1
 pyobjc-framework-SystemConfiguration==3.1
 pyobjc-framework-WebKit==3.1
 pyOpenSSL==0.14
-pyparsing==2.0.2
+pyparsing==2.0.3
 pypi-cli==0.3.2
 pyramid-chameleon==0.3
 pyramid==1.5.1
@@ -112,7 +112,7 @@ PyYAML==3.11
 pyzmq==14.3.1
 repoze.lru==0.6
 requests==2.4.3
-salt==2014.1.11
+salt==2014.1.12
 six==1.8.0
 SQLAlchemy==0.9.7
 stevedore==1.0.0
