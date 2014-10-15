@@ -17,7 +17,7 @@ cryptography==0.6
 Cython==0.21
 devpi-client==2.0.3
 devpi-common==2.0.3
-devpi-server==2.1.0
+devpi-server==2.1.1
 devpi-web==2.2.0
 devpi==2.1.0
 Django==1.7
@@ -112,7 +112,7 @@ PyYAML==3.11
 pyzmq==14.3.1
 repoze.lru==0.6
 requests==2.4.3
-salt==2014.1.12
+salt==2014.1.13
 six==1.8.0
 Sphinx==1.2.3
 SQLAlchemy==0.9.8
@@ -133,6 +133,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.10.13
+youtube-dl==2014.10.15
 zope.deprecation==4.1.1
 zope.interface==4.1.1
