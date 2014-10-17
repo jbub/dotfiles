@@ -13,7 +13,7 @@ Chameleon==2.16
 charade==1.0.3
 check-manifest==0.21
 click==3.3
-cryptography==0.6
+cryptography==0.6.1
 Cython==0.21
 devpi-client==2.0.3
 devpi-common==2.0.3
