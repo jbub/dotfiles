@@ -24,7 +24,7 @@ devpi==2.1.0
 Django==1.7
 docopt==0.6.2
 docutils==0.12
-dodgy==0.1.5
+dodgy==0.1.6
 dotfiles==0.6.3
 dulwich==0.9.7
 ecdsa==0.11
@@ -62,7 +62,7 @@ pies2overrides==2.6.1
 pies==2.6.1
 pip-tools==0.3.5
 pkginfo==1.2b1
-prospector==0.6.4
+prospector==0.7
 py2app==0.9
 py==1.4.25
 pycparser==2.10
