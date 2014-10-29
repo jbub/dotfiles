@@ -1,5 +1,6 @@
 \x auto
-\timing
+\timing on
 \encoding unicode
 \pset null 'NULL'
 \set HISTSIZE 2000
+\set HISTFILE ~/.psql_history- :DBNAME
