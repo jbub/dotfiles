@@ -46,6 +46,7 @@ Update ``/etc/paths`` so that ``/usr/local/bin`` goes first:
     /usr/bin
     /bin
     /usr/sbin
+    /usr/local/sbin
     /sbin
 
 Run brew doctor first and make sure everything is ok:
