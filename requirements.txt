@@ -63,7 +63,7 @@ pies2overrides==2.6.1
 pies==2.6.1
 pip-tools==0.3.5
 pkginfo==1.2b1
-prospector==0.7.1
+prospector==0.7.2
 py2app==0.9
 py==1.4.26
 pycparser==2.10
@@ -125,7 +125,7 @@ pytest==2.6.4
 python-dateutil==2.2
 pytz==2014.7
 PyYAML==3.11
-pyzmq==14.4.0
+pyzmq==14.4.1
 repoze.lru==0.6
 requests==2.4.3
 requirements-detector==0.3
@@ -151,6 +151,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.10.29
+youtube-dl==2014.10.30
 zope.deprecation==4.1.1
 zope.interface==4.1.1
