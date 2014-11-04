@@ -10,7 +10,7 @@ beautifulsoup4==4.3.2
 bottle==0.12.7
 certifi==14.05.14
 cffi==0.8.6
-Chameleon==2.16
+Chameleon==2.18
 charade==1.0.3
 check-manifest==0.21
 click==3.3
@@ -48,7 +48,6 @@ macholib==1.7
 MarkupSafe==0.23
 matplotlib==1.4.2
 mccabe==0.2.1
-mercurial==3.1.2
 mock==1.0.1
 modulegraph==0.12
 msgpack-python==0.4.2
@@ -69,7 +68,7 @@ py==1.4.26
 pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
-pygit2==0.21.3
+pygit2==0.21.4
 Pygments==1.6
 pylint-celery==0.3
 pylint-common==0.2.1
@@ -123,13 +122,13 @@ pyramid==1.5.1
 PyRSS2Gen==1.1
 pytest==2.6.4
 python-dateutil==2.2
-pytz==2014.7
+pytz==2014.9
 PyYAML==3.11
 pyzmq==14.4.1
 repoze.lru==0.6
 requests==2.4.3
 requirements-detector==0.3
-salt==2014.1.13
+salt==2014.7.0
 setoptconf==0.2.0
 six==1.8.0
 Sphinx==1.2.3
@@ -138,7 +137,7 @@ stevedore==1.1.0
 termcolor==1.1.0
 tornado==4.0.2
 tox==1.8.1
-translationstring==1.1
+translationstring==1.2
 Twisted==14.0.2
 venusian==1.0
 virtualenv-clone==0.2.5
