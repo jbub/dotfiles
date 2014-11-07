@@ -17,3 +17,4 @@ go get -v github.com/josharian/impl
 go get -v github.com/jinzhu/gorm
 go get -v github.com/gin-gonic/gin
 go get -v github.com/lib/pq
+go get -v github.com/spf13/hugo
