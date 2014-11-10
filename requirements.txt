@@ -70,7 +70,7 @@ pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
 pygit2==0.21.4
-Pygments==1.6
+Pygments==2.0
 pylint-celery==0.3
 pylint-common==0.2.1
 pylint-django==0.5.5
@@ -119,7 +119,7 @@ pyOpenSSL==0.14
 pyparsing==2.0.3
 pypi-cli==0.3.2
 pyramid-chameleon==0.3
-pyramid==1.5.1
+pyramid==1.5.2
 PyRSS2Gen==1.1
 pytest==2.6.4
 python-dateutil==2.2
@@ -151,6 +151,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.11.04
+youtube-dl==2014.11.09
 zope.deprecation==4.1.1
 zope.interface==4.1.1
