@@ -70,7 +70,7 @@ pycparser==2.10
 pycrypto==2.6.1
 pyflakes==0.8.1
 pygit2==0.21.4
-Pygments==2.0
+Pygments==2.0.1
 pylint-celery==0.3
 pylint-common==0.2.1
 pylint-django==0.5.5
