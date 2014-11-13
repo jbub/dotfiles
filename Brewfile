@@ -1,7 +1,9 @@
 tap caskroom/cask
+tap djl/homebrew-apache2
 tap homebrew/versions
 tap homebrew/binary
-tap djl/homebrew-apache2
+tap homebrew/dupes
+tap homebrew/homebrew-php
 
 install apache24
 install autoconf
@@ -30,6 +32,7 @@ install go
 install go-app-engine-64
 install gpg-agent
 install htop-osx
+install icu4c
 install imagemagick
 install isl
 install jbig2dec
@@ -71,6 +74,7 @@ install osxfuse
 install packer
 install pcre
 install phantomjs
+install php55
 install pinentry
 install pkg-config
 install proctools
@@ -87,8 +91,10 @@ install subversion
 install swig
 install tmux
 install tree
+install unixodbc
 install vim
 install xz
 install yajl
 install zeromq
+install zlib
 install zsh
