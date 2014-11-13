@@ -1,100 +1,100 @@
-tap caskroom/cask
-tap djl/homebrew-apache2
-tap homebrew/versions
-tap homebrew/binary
-tap homebrew/dupes
-tap homebrew/homebrew-php
+brew tap caskroom/cask
+brew tap djl/homebrew-apache2
+brew tap homebrew/versions
+brew tap homebrew/binary
+brew tap homebrew/dupes
+brew tap homebrew/homebrew-php
 
-install apache24
-install autoconf
-install automake
-install boot2docker
-install brew-cask
-install bsdmake
-install cloog
-install cmake
-install cscope
-install curl
-install dirmngr
-install docker
-install freetype
-install gcc
-install gdbm
-install gettext
-install ghostscript
-install git
-install git-extras
-install gmp
-install gnupg
-install gnupg2
-install gnutls
-install go
-install go-app-engine-64
-install gpg-agent
-install htop-osx
-install icu4c
-install imagemagick
-install isl
-install jbig2dec
-install jpeg
-install libassuan
-install libevent
-install libffi
-install libgcrypt
-install libgit2
-install libgpg-error
-install libksba
-install libmpc
-install libpng
-install libsodium
-install libtasn1
-install libtiff
-install libtool
-install libusb
-install libusb-compat
-install libvirt
-install libyaml
-install little-cms2
-install macvim
-install makedepend
-install maven
-install maven2
-install memcached
-install mercurial
-install mongodb
-install mpfr
-install msgpack
-install mysql
-install nettle
-install nginx
-install nmap
-install node
-install openssl
-install osxfuse
-install packer
-install pcre
-install phantomjs
-install php55
-install pinentry
-install pkg-config
-install proctools
-install pth
-install pypy
-install pypy3
-install python
-install python3
-install readline
-install redis
-install ruby
-install sqlite
-install subversion
-install swig
-install tmux
-install tree
-install unixodbc
-install vim
-install xz
-install yajl
-install zeromq
-install zlib
-install zsh
+brew install apache24
+brew install autoconf
+brew install automake
+brew install boot2docker
+brew install brew-cask
+brew install bsdmake
+brew install cloog
+brew install cmake
+brew install cscope
+brew install curl
+brew install dirmngr
+brew install docker
+brew install freetype
+brew install gcc
+brew install gdbm
+brew install gettext
+brew install ghostscript
+brew install git
+brew install git-extras
+brew install gmp
+brew install gnupg
+brew install gnupg2
+brew install gnutls
+brew install go
+brew install go-app-engine-64
+brew install gpg-agent
+brew install htop-osx
+brew install icu4c
+brew install imagemagick
+brew install isl
+brew install jbig2dec
+brew install jpeg
+brew install libassuan
+brew install libevent
+brew install libffi
+brew install libgcrypt
+brew install libgit2
+brew install libgpg-error
+brew install libksba
+brew install libmpc
+brew install libpng
+brew install libsodium
+brew install libtasn1
+brew install libtiff
+brew install libtool
+brew install libusb
+brew install libusb-compat
+brew install libvirt
+brew install libyaml
+brew install little-cms2
+brew install macvim
+brew install makedepend
+brew install maven
+brew install maven2
+brew install memcached
+brew install mercurial
+brew install mongodb
+brew install mpfr
+brew install msgpack
+brew install mysql
+brew install nettle
+brew install nginx
+brew install nmap
+brew install node
+brew install openssl
+brew install osxfuse
+brew install packer
+brew install pcre
+brew install phantomjs
+brew install php55
+brew install pinentry
+brew install pkg-config
+brew install proctools
+brew install pth
+brew install pypy
+brew install pypy3
+brew install python
+brew install python3
+brew install readline
+brew install redis
+brew install ruby
+brew install sqlite
+brew install subversion
+brew install swig
+brew install tmux
+brew install tree
+brew install unixodbc
+brew install vim
+brew install xz
+brew install yajl
+brew install zeromq
+brew install zlib
+brew install zsh

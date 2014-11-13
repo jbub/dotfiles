@@ -55,13 +55,6 @@ Run brew doctor first and make sure everything is ok:
 
     brew doctor
 
-Add repositories for formula versions and casks.
-
-.. code-block:: bash
-
-    brew tap homebrew/versions
-    brew tap caskroom/cask
-
 Install packages from Brewfile:
 
 .. code-block:: bash
@@ -69,7 +62,7 @@ Install packages from Brewfile:
     cd ~/Dotfiles
 
     # install from Brewfile
-    brew bundle Brewfile
+    bash Brewfile
 
     # symlink packages to /Applications
     brew linkapps
@@ -82,9 +75,9 @@ Install packages from Caskfile:
 .. code-block:: bash
 
     cd ~/Dotfiles
-    
+
     # install from Caskfile
-    brew bundle Caskfile
+    bash Caskfile
 
 Iterm2
 ------
@@ -126,7 +119,7 @@ Sublime Text 3
 Install Tomorrow-Night color scheme:
 
 .. code-block:: bash
-    
+
     # move to desktop
     cd ~/Desktop
 
@@ -142,7 +135,7 @@ Install Soda Dark 3 theme:
 
     # move to packages directory
     cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-    
+
     # clone theme
     git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
@@ -150,7 +143,7 @@ Install Soda Dark 3 theme:
 Install user settings:
 
 .. code-block:: bash
-    
+
     cp ~/Dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
     cp ~/Dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
@@ -160,7 +153,7 @@ Python packages
 Install system python packages:
 
 .. code-block:: bash
-    
+
     cd ~/Dotfiles
 
     pip install -r requirements.txt
