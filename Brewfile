@@ -1,7 +1,9 @@
 tap caskroom/cask
 tap homebrew/versions
 tap homebrew/binary
+tap djl/homebrew-apache2
 
+install apache24
 install autoconf
 install automake
 install boot2docker
@@ -41,6 +43,7 @@ install libgpg-error
 install libksba
 install libmpc
 install libpng
+install libsodium
 install libtasn1
 install libtiff
 install libtool
@@ -51,6 +54,7 @@ install libyaml
 install little-cms2
 install macvim
 install makedepend
+install maven
 install maven2
 install memcached
 install mercurial
