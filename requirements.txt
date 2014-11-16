@@ -2,7 +2,7 @@ altgraph==0.12
 anyjson==0.3.3
 apache-libcloud==0.16.0
 Archive==0.3
-argparse==1.2.1
+argparse==1.2.2
 astroid==1.2.1
 backports.ssl-match-hostname==3.4.0.2
 bdist-mpkg==0.5.0
@@ -48,7 +48,7 @@ macholib==1.7
 MarkupSafe==0.23
 matplotlib==1.4.2
 mccabe==0.2.1
-mercurial==3.2
+mercurial==3.2.1
 mock==1.0.1
 modulegraph==0.12
 msgpack-python==0.4.2
@@ -151,6 +151,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.11.12.1
+youtube-dl==2014.11.16
 zope.deprecation==4.1.1
 zope.interface==4.1.1
