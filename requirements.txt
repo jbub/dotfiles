@@ -16,11 +16,6 @@ check-manifest==0.21
 click==3.3
 cryptography==0.6.1
 Cython==0.21.1
-devpi-client==2.0.3
-devpi-common==2.0.3
-devpi-server==2.1.2
-devpi-web==2.2.1
-devpi==2.1.0
 Django==1.7.1
 docopt==0.6.2
 docutils==0.12
@@ -28,7 +23,7 @@ dodgy==0.1.6
 dotfiles==0.6.3
 dulwich==0.9.7
 ecdsa==0.11
-enum34==1.0.3
+enum34==1.0.4
 envoy==0.0.3
 execnet==1.2.0
 Fabric==1.10.0
@@ -127,7 +122,7 @@ pyramid==1.5.2
 PyRSS2Gen==1.1
 pytest==2.6.4
 python-dateutil==2.2
-pytz==2014.9
+pytz==2014.10
 PyYAML==3.11
 pyzmq==14.4.1
 repoze.lru==0.6
@@ -156,6 +151,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.11.23.1
+youtube-dl==2014.11.26.4
 zope.deprecation==4.1.1
 zope.interface==4.1.1
