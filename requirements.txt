@@ -21,7 +21,7 @@ docopt==0.6.2
 docutils==0.12
 dodgy==0.1.6
 dotfiles==0.6.3
-dulwich==0.9.7
+dulwich==0.9.8
 ecdsa==0.11
 enum34==1.0.4
 envoy==0.0.3
@@ -37,7 +37,7 @@ itsdangerous==0.24
 Jinja2==2.7.3
 latexcodec==1.0.1
 LinkChecker==9.3
-logilab-common==0.63.0
+logilab-common==0.63.2
 lxml==3.4.1
 M2Crypto==0.22.3
 macholib==1.7
@@ -60,7 +60,7 @@ pies2overrides==2.6.1
 pies==2.6.1
 pip-tools==0.3.5
 pkginfo==1.2b1
-prospector==0.7.2
+prospector==0.7.4
 py2app==0.9
 py==1.4.26
 pybtex-docutils==0.2.0
@@ -121,12 +121,12 @@ pyramid-chameleon==0.3
 pyramid==1.5.2
 PyRSS2Gen==1.1
 pytest==2.6.4
-python-dateutil==2.2
+python-dateutil==2.3
 pytz==2014.10
 PyYAML==3.11
 pyzmq==14.4.1
 repoze.lru==0.6
-requests==2.4.3
+requests==2.5.0
 requirements-detector==0.3
 salt==2014.7.0
 setoptconf==0.2.0
@@ -151,6 +151,6 @@ Whoosh==2.6.0
 wsaccel==0.6.2
 wsgiref==0.1.2
 xattr==0.7.5
-youtube-dl==2014.11.26.4
+youtube-dl==2014.12.01
 zope.deprecation==4.1.1
 zope.interface==4.1.1
