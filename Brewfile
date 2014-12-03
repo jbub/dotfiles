@@ -70,7 +70,6 @@ brew install nginx
 brew install nmap
 brew install node
 brew install openssl
-brew install osxfuse
 brew install packer
 brew install pcre
 brew install phantomjs
