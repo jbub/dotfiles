@@ -50,7 +50,7 @@ export HOMEBREW_GITHUB_API_TOKEN=760126be00a771cbcec22ed142482d03817334ec
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv-2.7
+export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/local/bin/virtualenvwrapper.sh
 
