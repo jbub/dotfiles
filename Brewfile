@@ -5,6 +5,7 @@ brew tap homebrew/binary
 brew tap homebrew/dupes
 brew tap homebrew/homebrew-php
 
+brew install ant
 brew install apache24
 brew install autoconf
 brew install automake
@@ -16,6 +17,7 @@ brew install cmake
 brew install cscope
 brew install curl
 brew install dirmngr
+brew install docker
 brew install ffmpeg
 brew install freetype
 brew install gcc
@@ -49,6 +51,7 @@ brew install libgcrypt
 brew install libgit2
 brew install libgpg-error
 brew install libksba
+brew install libmemcached
 brew install libmpc
 brew install libpng
 brew install libsodium
@@ -66,8 +69,10 @@ brew install macvim
 brew install makedepend
 brew install maven
 brew install maven2
+brew install mcrypt
 brew install memcached
 brew install mercurial
+brew install mhash
 brew install mongodb
 brew install mpfr
 brew install msgpack
@@ -79,9 +84,13 @@ brew install node
 brew install openssl
 brew install osquery
 brew install packer
+brew install pandoc
 brew install pcre
 brew install phantomjs
 brew install php55
+brew install php55-mcrypt
+brew install php55-memcache
+brew install php55-memcached
 brew install pinentry
 brew install pkg-config
 brew install proctools
