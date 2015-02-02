@@ -5,6 +5,7 @@ brew tap homebrew/binary
 brew tap homebrew/dupes
 brew tap homebrew/homebrew-php
 
+brew install ansible
 brew install ant
 brew install apache24
 brew install autoconf
