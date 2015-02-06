@@ -69,7 +69,7 @@ Pillow==2.7.0
 pip-tools==0.3.5
 pkginfo==1.2.1
 prompt-toolkit==0.31
-prospector==0.9.6
+prospector==0.9.7
 psycopg2==2.5.4
 py2app==0.9
 py==1.4.26
