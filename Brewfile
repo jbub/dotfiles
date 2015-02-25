@@ -103,6 +103,7 @@ brew install python3
 brew install readline
 brew install redis
 brew install rocksdb
+brew install rtmpdump
 brew install ruby
 brew install snappy
 brew install sqlite
