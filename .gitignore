@@ -10,3 +10,6 @@ pip/cache
 # bower
 config/configstore/update-notifier-bower.yml
 config/configstore/insight-bower.yml
+
+# robomongo
+config/robomongo/robomongo.json
