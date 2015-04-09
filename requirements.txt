@@ -162,7 +162,7 @@ Twisted==15.0.0
 vboxapi==1.0
 venusian==1.0
 virtualenv-clone==0.2.5
-virtualenv==12.1.0
+virtualenv==12.1.1
 virtualenvwrapper==4.3.2
 waitress==0.8.9
 wcwidth==0.1.4
@@ -172,6 +172,6 @@ Werkzeug==0.10.4
 Whoosh==2.6.0
 wsaccel==0.6.2
 xattr==0.7.5
-youtube-dl==2015.4.3
+youtube-dl==2015.4.9
 zope.deprecation==4.1.2
 zope.interface==4.1.2
