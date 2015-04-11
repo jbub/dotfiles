@@ -15,7 +15,7 @@ Chameleon==2.22
 charade==1.0.3
 check-manifest==0.24
 click==4.0
-cryptography==0.8.1
+cryptography==0.8.2
 cssselect==0.9.1
 Cython==0.22
 Django==1.8
@@ -69,7 +69,7 @@ pgcli==0.16.3
 pies2overrides==2.6.3
 pies==2.6.3
 Pillow==2.8.1
-pip-tools==0.3.5
+pip-tools==0.3.6
 pkginfo==1.2.1
 prompt-toolkit==0.31
 prospector==0.10
