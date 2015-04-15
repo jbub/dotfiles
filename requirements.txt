@@ -127,12 +127,12 @@ pyobjc-framework-StoreKit==3.1
 pyobjc-framework-SyncServices==3.1
 pyobjc-framework-SystemConfiguration==3.1
 pyobjc-framework-WebKit==3.1
-pyOpenSSL==0.15
+pyOpenSSL==0.15.1
 pyparsing==2.0.3
 pypi-cli==0.4.0
 pyquery==1.2.9
 pyramid-chameleon==0.3
-pyramid==1.5.4
+pyramid==1.5.6
 PyRSS2Gen==1.1
 pytest==2.7.0
 python-dateutil==2.4.2
