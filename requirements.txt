@@ -45,7 +45,7 @@ Jinja2==2.7.3
 latexcodec==1.0.1
 LinkChecker==9.3
 logilab-common==0.63.2
-lxml==3.4.2
+lxml==3.4.3
 M2Crypto==0.22.3
 macholib==1.7
 MarkupSafe==0.23
@@ -151,7 +151,7 @@ sphinx-rtd-theme==0.1.7
 Sphinx==1.3.1
 sphinxcontrib-bibtex==0.3.2
 SQLAlchemy==0.9.9
-sqlparse==0.1.14
+sqlparse==0.1.15
 stevedore==1.3.0
 termcolor==1.1.0
 texttable==0.8.3
