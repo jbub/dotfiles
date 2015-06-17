@@ -1,4 +1,4 @@
-alabaster==0.7.4
+alabaster==0.7.5
 altgraph==0.12
 anyjson==0.3.3
 apache-libcloud==0.17.0
@@ -10,7 +10,7 @@ bdist-mpkg==0.5.0
 beautifulsoup4==4.3.2
 bottle==0.12.8
 certifi==2015.4.28
-cffi==1.1.0
+cffi==1.1.2
 Chameleon==2.22
 charade==1.0.3
 check-manifest==0.25
@@ -21,7 +21,7 @@ cssselect==0.9.1
 Cython==0.22
 Django==1.8.2
 docker-py==1.2.2
-dockerpty==0.3.3
+dockerpty==0.3.4
 docopt==0.6.2
 docutils==0.12
 dodgy==0.1.7
@@ -52,7 +52,7 @@ M2Crypto==0.22.3
 macholib==1.7
 MarkupSafe==0.23
 matplotlib==1.4.3
-mccabe==0.3
+mccabe==0.3.1
 mercurial==3.2.1
 mock==1.0.1
 modulegraph==0.12.1
@@ -64,10 +64,10 @@ oset==0.1.3
 paramiko==1.15.2
 PasteDeploy==1.5.2
 pathlib==1.0.1
-pbr==1.0.1
+pbr==1.1.1
 pep257==0.5.0
 pep8-naming==0.2.2
-pep8==1.5.7
+pep8==1.6.2
 pgcli==0.17.0
 pies2overrides==2.6.5
 pies==2.6.5
@@ -75,18 +75,18 @@ Pillow==2.8.2
 pip-tools==0.3.6
 pkginfo==1.2.1
 pluggy==0.3.0
-prompt-toolkit==0.39
+prompt-toolkit==0.40
 prospector==0.10.2
-psutil==2.2.1
-psycopg2==2.6
+psutil==3.0.0
+psycopg2==2.6.1
 py2app==0.9
 py==1.4.28
 pyasn1==0.1.7
 pybtex-docutils==0.2.1
 pybtex==0.18
-pycparser==2.13
+pycparser==2.14
 pycrypto==2.6.1
-pyflakes==0.9.0
+pyflakes==0.9.1
 pygit2==0.22.0
 Pygments==2.0.2
 pylint-celery==0.3
@@ -155,7 +155,7 @@ snowballstemmer==1.2.0
 sphinx-rtd-theme==0.1.8
 Sphinx==1.3.1
 sphinxcontrib-bibtex==0.3.2
-SQLAlchemy==1.0.4
+SQLAlchemy==1.0.5
 sqlparse==0.1.15
 stevedore==1.5.0
 termcolor==1.1.0
@@ -168,7 +168,7 @@ vboxapi==1.0
 venusian==1.0
 virtualenv-clone==0.2.5
 virtualenv==13.0.3
-virtualenvwrapper==4.5.1
+virtualenvwrapper==4.6.0
 waitress==0.8.9
 wcwidth==0.1.4
 WebOb==1.4.1
@@ -177,6 +177,6 @@ Werkzeug==0.10.4
 Whoosh==2.7.0
 wsaccel==0.6.2
 xattr==0.7.5
-youtube-dl==2015.5.20
+youtube-dl==2015.6.15
 zope.deprecation==4.1.2
 zope.interface==4.1.2
