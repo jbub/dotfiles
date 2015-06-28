@@ -1,4 +1,4 @@
-alabaster==0.7.5
+alabaster==0.7.6
 altgraph==0.12
 anyjson==0.3.3
 apache-libcloud==0.17.0
@@ -64,7 +64,7 @@ oset==0.1.3
 paramiko==1.15.2
 PasteDeploy==1.5.2
 pathlib==1.0.1
-pbr==1.1.1
+pbr==1.2.0
 pep257==0.5.0
 pep8-naming==0.3.2
 pep8==1.6.2
@@ -75,13 +75,13 @@ Pillow==2.8.2
 pip-tools==0.3.6
 pkginfo==1.2.1
 pluggy==0.3.0
-prompt-toolkit==0.41
+prompt-toolkit==0.42
 prospector==0.10.2
 psutil==3.0.1
 psycopg2==2.6.1
 py2app==0.9
-py==1.4.28
-pyasn1==0.1.7
+py==1.4.30
+pyasn1==0.1.8
 pybtex-docutils==0.2.1
 pybtex==0.18
 pycparser==2.14
@@ -139,7 +139,7 @@ pyquery==1.2.9
 pyramid-chameleon==0.3
 pyramid==1.5.7
 PyRSS2Gen==1.1
-pytest==2.7.1
+pytest==2.7.2
 python-dateutil==2.4.2
 pytz==2015.4
 PyYAML==3.11
@@ -155,13 +155,13 @@ snowballstemmer==1.2.0
 sphinx-rtd-theme==0.1.8
 Sphinx==1.3.1
 sphinxcontrib-bibtex==0.3.2
-SQLAlchemy==1.0.5
+SQLAlchemy==1.0.6
 sqlparse==0.1.15
 stevedore==1.5.0
 termcolor==1.1.0
 texttable==0.8.3
 tornado==4.2
-tox==2.1.0
+tox==2.1.1
 translationstring==1.3
 Twisted==15.2.1
 vboxapi==1.0
@@ -176,7 +176,7 @@ websocket-client==0.32.0
 Werkzeug==0.10.4
 Whoosh==2.7.0
 wsaccel==0.6.2
-xattr==0.7.7
-youtube-dl==2015.6.15
+xattr==0.7.8
+youtube-dl==2015.6.25
 zope.deprecation==4.1.2
 zope.interface==4.1.2
