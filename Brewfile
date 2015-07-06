@@ -13,6 +13,7 @@ brew install automake
 brew install boost
 brew install brew-cask
 brew install bsdmake
+brew install cairo
 brew install cloog
 brew install cmake
 brew install cscope
@@ -20,6 +21,7 @@ brew install curl
 brew install dirmngr
 brew install docker
 brew install ffmpeg
+brew install fontconfig
 brew install freetype
 brew install gcc
 brew install gdbm
@@ -29,6 +31,7 @@ brew install gflags
 brew install ghostscript
 brew install git
 brew install git-extras
+brew install glib
 brew install glog
 brew install gmp
 brew install gnupg
@@ -36,7 +39,9 @@ brew install gnupg2
 brew install gnutls
 brew install go
 brew install go-app-engine-64
+brew install gobject-introspection
 brew install gpg-agent
+brew install harfbuzz
 brew install htop-osx
 brew install icu4c
 brew install imagemagick
@@ -86,13 +91,16 @@ brew install openssl
 brew install osquery
 brew install packer
 brew install pandoc
+brew install pango
 brew install pcre
 brew install phantomjs
 brew install php55
+brew install php55-igbinary
 brew install php55-mcrypt
 brew install php55-memcache
 brew install php55-memcached
 brew install pinentry
+brew install pixman
 brew install pkg-config
 brew install proctools
 brew install pth
