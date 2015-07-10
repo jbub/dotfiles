@@ -84,6 +84,33 @@ Iterm2
 
 Just make sure you point to your settings folder to ``~/.iterm2`` and import the color scheme ``jbub.itermcolors`` to your profile.
 
+Oh My Zsh
+---------
+
+Clone oh-my-zsh to your home directory under ``~/.oh-my-zsh``.
+
+.. code-block:: bash
+
+    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+Add ``zsh`` to ``/etc/shells``.
+
+.. code-block:: bash
+
+    /bin/bash
+    /bin/csh
+    /bin/ksh
+    /bin/sh
+    /bin/tcsh
+    /bin/zsh
+    /usr/local/bin/zsh
+
+Finally change the default shell for your user.
+
+.. code-block:: bash
+
+    chsh -s /usr/local/bin/zsh
+
 MacVim
 ------
 
