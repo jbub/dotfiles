@@ -95,7 +95,7 @@ pylint-common==0.2.1
 pylint-django==0.6.1
 pylint-plugin-utils==0.2.3
 pylint==1.4.4
-pyobjc-core==3.1
+pyobjc-core==3.0.1
 pyobjc-framework-Accounts==3.1
 pyobjc-framework-AddressBook==3.1
 pyobjc-framework-AppleScriptKit==3.1
@@ -150,6 +150,7 @@ requests-cache==0.4.10
 requests==2.7.0
 requirements-detector==0.4
 salt==2015.5.3
+selenium==2.46.0
 setoptconf==0.2.0
 six==1.9.0
 snowballstemmer==1.2.0
