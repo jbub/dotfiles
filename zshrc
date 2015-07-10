@@ -34,9 +34,6 @@ export PATH=$PATH:"/sbin"
 # Postgres.app
 export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
-# appengine
-export PATH=$PATH:$HOME"/Documents/Apps/go_appengine"
-
 # golang
 export GOVERSION="1.4.2"
 export GOPATH=$HOME"/Documents/Projekty/GO/dev"
