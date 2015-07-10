@@ -95,7 +95,6 @@ pylint-common==0.2.1
 pylint-django==0.6.1
 pylint-plugin-utils==0.2.3
 pylint==1.4.4
-pyobjc-framework-WebKit==3.0.1
 pyOpenSSL==0.15.1
 pyparsing==2.0.3
 pypi-cli==0.4.0
