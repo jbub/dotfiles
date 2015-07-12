@@ -166,13 +166,18 @@ Install Soda Dark 3 theme:
     # clone theme
     git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 
-
 Install user settings:
 
 .. code-block:: bash
 
     cp ~/Dotfiles/sublime/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
     cp ~/Dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+Symlink command line utility to ``/usr/bin``.
+
+.. code-block:: bash
+
+    sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin
 
 Python packages
 ---------------
