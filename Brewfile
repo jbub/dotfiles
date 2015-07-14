@@ -25,6 +25,7 @@ brew install fontconfig
 brew install freetype
 brew install gcc
 brew install gdbm
+brew install geoip
 brew install geos
 brew install gettext
 brew install gflags
@@ -108,6 +109,7 @@ brew install pypy
 brew install pypy3
 brew install python
 brew install python3
+brew install rabbitmq
 brew install readline
 brew install redis
 brew install rocksdb
