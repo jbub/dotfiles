@@ -14,7 +14,7 @@ CASE_SENSITIVE="true"
 DISABLE_CORRECTION="true"
 
 # zsh plugins
-plugins=(git)
+plugins=(git mercurial)
 
 # run oh-my-zsh
 source $ZSH/oh-my-zsh.sh
