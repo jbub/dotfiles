@@ -10,11 +10,6 @@ set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'tpope/vim-fugitive'
-Plugin 'fatih/vim-go'
-Plugin 'fatih/molokai'
 
 call vundle#end()
 
@@ -59,9 +54,6 @@ set switchbuf=usetab,newtab          " re-use a tab/window otherwise open a new 
 
 " show status line
 set laststatus=2
-
-" status line format
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 "
 " Indentation
@@ -123,9 +115,3 @@ let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
-
-" run NERDTree on startup
-autocmd vimenter * NERDTree
-
-" auto close NERDTree when there is no active window
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
