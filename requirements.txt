@@ -28,7 +28,7 @@ docopt==0.6.2
 docutils==0.12
 dodgy==0.1.7
 dotfiles==0.6.4
-dulwich==0.11.1
+dulwich==0.11.2
 ecdsa==0.13
 enum34==1.0.4
 envoy==0.0.3
@@ -91,7 +91,7 @@ pybtex==0.18
 pybtex-docutils==0.2.1
 pycparser==2.14
 pycrypto==2.6.1
-pyflakes==0.9.2
+pyflakes==1.0.0
 pygit2==0.23.0
 Pygments==2.0.2
 pylint==1.4.4
@@ -106,7 +106,7 @@ pyquery==1.2.9
 pyramid==1.5.7
 pyramid-chameleon==0.3
 PyRSS2Gen==1.1
-pytest==2.7.3
+pytest==2.8.0
 python-dateutil==2.4.2
 python-memcached==1.57
 pytz==2015.4
@@ -143,7 +143,7 @@ wcwidth==0.1.5
 WebOb==1.4.1
 websocket-client==0.32.0
 Werkzeug==0.10.4
-wheel==0.25.0
+wheel==0.26.0
 Whoosh==2.7.0
 wsaccel==0.6.2
 xattr==0.7.8
