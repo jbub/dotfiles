@@ -323,9 +323,13 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>1236 351 924 485 0 0 2560 1417 </string>
+	<string>1236 351 605 485 0 0 2560 1417 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>230 833 592 584 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>306 396 1943 642 0 0 2560 1417 </string>
+	<string>1 396 570 376 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>398 166 585 376 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1066,7 +1070,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>458211089.554075</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>458507685.474235</real>
+	<real>465408887.04652601</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1131,7 +1135,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-07-14T07:10:49Z</date>
+	<date>2015-10-03T13:32:09Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1160,6 +1164,8 @@
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1441980416</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -1171,7 +1177,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>.Helvetica Neue DeskInterface</string>
+	<string>.AppleSystemUIFont</string>
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>
