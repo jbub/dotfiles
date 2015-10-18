@@ -8,18 +8,22 @@ brew tap homebrew/homebrew-php
 brew install ansible
 brew install ant
 brew install apache24
+brew install app-engine-go-64
 brew install autoconf
 brew install automake
+brew install bison
 brew install boost
 brew install brew-cask
 brew install bsdmake
 brew install cairo
 brew install cloog
 brew install cmake
+brew install cpp-netlib
 brew install cscope
 brew install curl
 brew install dirmngr
 brew install docker
+brew install doxygen
 brew install ffmpeg
 brew install fontconfig
 brew install freetype
@@ -42,8 +46,10 @@ brew install go
 brew install go-app-engine-64
 brew install gobject-introspection
 brew install gpg-agent
+brew install gradle
 brew install harfbuzz
 brew install htop-osx
+brew install httpie
 brew install icu4c
 brew install imagemagick
 brew install isl
@@ -51,6 +57,7 @@ brew install jansson
 brew install jbig2dec
 brew install jpeg
 brew install lame
+brew install latex2rtf
 brew install libassuan
 brew install libevent
 brew install libffi
@@ -58,9 +65,11 @@ brew install libgcrypt
 brew install libgit2
 brew install libgpg-error
 brew install libksba
+brew install libmagic
 brew install libmemcached
 brew install libmpc
 brew install libpng
+brew install libressl
 brew install libsodium
 brew install libtasn1
 brew install libtiff
@@ -69,6 +78,7 @@ brew install libusb
 brew install libusb-compat
 brew install libvirt
 brew install libvo-aacenc
+brew install libxml2
 brew install libyaml
 brew install little-cms2
 brew install lz4
@@ -100,6 +110,7 @@ brew install php55-igbinary
 brew install php55-mcrypt
 brew install php55-memcache
 brew install php55-memcached
+brew install phpmyadmin
 brew install pinentry
 brew install pixman
 brew install pkg-config
@@ -128,6 +139,7 @@ brew install x264
 brew install xvid
 brew install xz
 brew install yajl
+brew install yara
 brew install zeromq
 brew install zlib
 brew install zsh
