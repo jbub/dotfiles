@@ -16,6 +16,7 @@ brew install boost
 brew install brew-cask
 brew install bsdmake
 brew install cairo
+brew install chromedriver
 brew install cloog
 brew install cmake
 brew install cpp-netlib
@@ -47,17 +48,20 @@ brew install go-app-engine-64
 brew install gobject-introspection
 brew install gpg-agent
 brew install gradle
+brew install graphviz
 brew install harfbuzz
 brew install htop-osx
 brew install httpie
 brew install icu4c
 brew install imagemagick
+brew install influxdb
 brew install isl
 brew install jansson
 brew install jbig2dec
 brew install jpeg
 brew install lame
 brew install latex2rtf
+brew install leptonica
 brew install libassuan
 brew install libevent
 brew install libffi
@@ -82,6 +86,8 @@ brew install libxml2
 brew install libyaml
 brew install little-cms2
 brew install lz4
+brew install lzo
+brew install lzop
 brew install macvim
 brew install makedepend
 brew install maven
@@ -116,6 +122,7 @@ brew install pixman
 brew install pkg-config
 brew install proctools
 brew install pth
+brew install pv
 brew install pypy
 brew install pypy3
 brew install python
@@ -130,6 +137,7 @@ brew install snappy
 brew install sqlite
 brew install subversion
 brew install swig
+brew install tesseract
 brew install thrift
 brew install tmux
 brew install tree
