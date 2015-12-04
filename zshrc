@@ -41,9 +41,6 @@ export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
 export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 
-# homebrew github api token
-export HOMEBREW_GITHUB_API_TOKEN=760126be00a771cbcec22ed142482d03817334ec
-
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
@@ -65,3 +62,6 @@ export DOCKER_TLS_VERIFY=1
 # ansible
 export ANSIBLE_INVENTORY=/usr/local/etc/ansible/hosts
 export ANSIBLE_HOST_KEY_CHECKING=False
+
+# secret environment vars
+[[ -f .env ]] && source .env
