@@ -3,7 +3,6 @@ brew tap djl/homebrew-apache2
 brew tap homebrew/versions
 brew tap homebrew/binary
 brew tap homebrew/dupes
-brew tap homebrew/homebrew-php
 
 brew install ansible
 brew install ant
@@ -40,6 +39,7 @@ brew install git-extras
 brew install glib
 brew install glog
 brew install gmp
+brew install gnu-getopt
 brew install gnupg
 brew install gnupg2
 brew install gnutls
@@ -51,7 +51,6 @@ brew install gradle
 brew install graphviz
 brew install harfbuzz
 brew install htop-osx
-brew install httpie
 brew install icu4c
 brew install imagemagick
 brew install influxdb
@@ -104,6 +103,7 @@ brew install nettle
 brew install nginx
 brew install nmap
 brew install node
+brew install openjpeg
 brew install openssl
 brew install osquery
 brew install packer
@@ -111,15 +111,10 @@ brew install pandoc
 brew install pango
 brew install pcre
 brew install phantomjs
-brew install php55
-brew install php55-igbinary
-brew install php55-mcrypt
-brew install php55-memcache
-brew install php55-memcached
-brew install phpmyadmin
 brew install pinentry
 brew install pixman
 brew install pkg-config
+brew install poppler
 brew install proctools
 brew install pth
 brew install pv
@@ -133,6 +128,7 @@ brew install redis
 brew install rocksdb
 brew install rtmpdump
 brew install ruby
+brew install sleuthkit
 brew install snappy
 brew install sqlite
 brew install subversion
@@ -141,8 +137,10 @@ brew install tesseract
 brew install thrift
 brew install tmux
 brew install tree
+brew install ttfautohint
 brew install unixodbc
 brew install vim
+brew install watch
 brew install x264
 brew install xvid
 brew install xz
