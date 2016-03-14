@@ -54,11 +54,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
 # git
 alias gitup="git pl && git sb update"
 
-# boot2docker
-export DOCKER_HOST=tcp://boot2docker:2376
-export DOCKER_CERT_PATH=$HOME"/.boot2docker/certs/boot2docker-vm"
-export DOCKER_TLS_VERIFY=1
-
 # ansible
 export ANSIBLE_INVENTORY=/usr/local/etc/ansible/hosts
 export ANSIBLE_HOST_KEY_CHECKING=False

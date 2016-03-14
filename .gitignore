@@ -8,11 +8,16 @@ pip/pip.log
 pip/cache
 
 # bower
+config/configstore/update-notifier-bower.json
 config/configstore/update-notifier-bower.yml
 config/configstore/insight-bower.yml
+config/configstore/bower-github.yml
 
 # robomongo
 config/robomongo/robomongo.json
+
+# iterm
+iterm2/com.googlecode.iterm2.plist
 
 # secret env vars
 env
