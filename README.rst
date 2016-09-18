@@ -70,15 +70,6 @@ Install packages from Brewfile:
     # run doctor again and fix problems if there are any
     brew doctor
 
-Install packages from Caskfile:
-
-.. code-block:: bash
-
-    cd ~/Dotfiles
-
-    # install from Caskfile
-    bash Caskfile
-
 Iterm2
 ------
 
