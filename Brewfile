@@ -57,7 +57,6 @@ brew install go
 brew install go-app-engine-64
 brew install gobject-introspection
 brew install gpg-agent
-brew install gradle
 brew install graphicsmagick
 brew install graphviz
 brew install harfbuzz
