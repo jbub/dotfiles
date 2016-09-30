@@ -105,8 +105,6 @@ brew install lzo
 brew install lzop
 brew install macvim
 brew install makedepend
-brew install maven
-brew install maven2
 brew install mcrypt
 brew install memcached
 brew install mercurial
