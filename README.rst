@@ -102,35 +102,6 @@ Finally change the default shell for your user.
 
     chsh -s /usr/local/bin/zsh
 
-MacVim
-------
-
-Install Vundle package manager for vim:
-
-.. code-block:: bash
-
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-Package YouCompleteMe needs to be compiled first:
-
-.. code-block:: bash
-
-    git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
-
-    cd ~/.vim/bundle/YouCompleteMe
-
-    # fetch all submodules
-    git submodule update --init --recursive
-
-    # start the compilation
-    ./install.sh
-
-Other packages can be installed from vim directly, just run this vim command:
-
-.. code-block:: bash
-
-    :PluginInstall
-
 Sublime Text 3
 --------------
 
