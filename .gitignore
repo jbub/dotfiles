@@ -7,10 +7,8 @@ Desktop.ini
 pip/pip.log
 pip/cache
 
-# bower
-config/configstore/update-notifier-*
-config/configstore/insight-bower.yml
-config/configstore/bower-github.yml
+# configstore
+config/configstore/
 
 # robomongo
 config/robomongo/robomongo.json
