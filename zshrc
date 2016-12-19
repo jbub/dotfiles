@@ -35,11 +35,11 @@ export PATH=$PATH:"/sbin"
 export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.4/bin"
 
 # golang
-export GOVERSION="1.7.4"
+export GOVERSION="1.7.4_1"
 export GOPATH=$HOME"/go"
-export GOROOT="/usr/local/Cellar/go/1.7.4_1/libexec"
+export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
-export PATH=$PATH:"/usr/local/Cellar/go/1.7.4_1/bin"
+export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
