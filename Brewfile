@@ -6,6 +6,8 @@ brew tap homebrew/dupes
 brew install ansible
 brew install ant
 brew install app-engine-go-64
+brew install apr
+brew install apr-util
 brew install arpack
 brew install asio
 brew install autoconf
@@ -44,9 +46,11 @@ brew install git-extras
 brew install git-lfs
 brew install gl2ps
 brew install glib
+brew install glide
 brew install glog
 brew install glpk
 brew install gmp
+brew install gmp@4
 brew install gnu-getopt
 brew install gnu-sed
 brew install gnupg
@@ -55,6 +59,7 @@ brew install gnuplot
 brew install gnutls
 brew install go
 brew install go-app-engine-64
+brew install go-swagger
 brew install gobject-introspection
 brew install gpg-agent
 brew install graphicsmagick
@@ -66,7 +71,9 @@ brew install hugo
 brew install icu4c
 brew install imagemagick
 brew install influxdb
+brew install intltool
 brew install isl
+brew install isl@0.12
 brew install jansson
 brew install jbig2dec
 brew install jpeg
@@ -121,7 +128,9 @@ brew install node
 brew install octave
 brew install openjpeg
 brew install openssl
+brew install openssl@1.1
 brew install osquery
+brew install p11-kit
 brew install packer
 brew install pandoc
 brew install pango
@@ -163,6 +172,7 @@ brew install snappy
 brew install sqlite
 brew install subversion
 brew install suite-sparse
+brew install swagger-codegen
 brew install swig
 brew install szip
 brew install tbb
@@ -174,6 +184,7 @@ brew install transfig
 brew install tree
 brew install ttfautohint
 brew install unixodbc
+brew install utf8proc
 brew install veclibfort
 brew install vim
 brew install watch
@@ -184,6 +195,7 @@ brew install xvid
 brew install xz
 brew install yajl
 brew install yara
+brew install yarn
 brew install zeromq
 brew install zlib
 brew install zsh
