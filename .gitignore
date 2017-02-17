@@ -11,13 +11,17 @@ pip/cache
 config/configstore/
 
 # robomongo
-config/robomongo/robomongo.json
+config/robomongo/
+
+# eid client
+config/Plaut Slovensko s.r.o/
 
 # octave
-config/octave/qt-settings
+config/octave/
 
 # gocode
-config/gocode/config.json
+config/gocode/
+
 
 # iterm
 iterm2/com.googlecode.iterm2.plist
