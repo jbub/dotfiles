@@ -22,6 +22,8 @@ config/octave/
 # gocode
 config/gocode/
 
+# isolated storage
+config/.isolated-storage
 
 # iterm
 iterm2/com.googlecode.iterm2.plist

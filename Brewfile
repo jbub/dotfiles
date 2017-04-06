@@ -3,6 +3,7 @@ brew tap homebrew/versions
 brew tap homebrew/binary
 brew tap homebrew/dupes
 
+brew install adns
 brew install ansible
 brew install ant
 brew install app-engine-go-64
@@ -10,6 +11,7 @@ brew install apr
 brew install apr-util
 brew install arpack
 brew install asio
+brew install augeas
 brew install autoconf
 brew install automake
 brew install bazaar
@@ -28,6 +30,7 @@ brew install dirmngr
 brew install doxygen
 brew install epstool
 brew install erlang
+brew install exiftool
 brew install ffmpeg
 brew install fftw
 brew install fltk
@@ -36,6 +39,7 @@ brew install freetype
 brew install gcc
 brew install gd
 brew install gdbm
+brew install geckodriver
 brew install geoip
 brew install geos
 brew install gettext
@@ -62,6 +66,7 @@ brew install go-app-engine-64
 brew install go-swagger
 brew install gobject-introspection
 brew install gpg-agent
+brew install grafana
 brew install graphicsmagick
 brew install graphviz
 brew install harfbuzz
@@ -98,6 +103,7 @@ brew install libssh2
 brew install libtasn1
 brew install libtiff
 brew install libtool
+brew install libunistring
 brew install libusb
 brew install libusb-compat
 brew install libvirt
@@ -125,6 +131,7 @@ brew install nettle
 brew install nginx
 brew install nmap
 brew install node
+brew install npth
 brew install octave
 brew install openjpeg
 brew install openssl
@@ -144,6 +151,7 @@ brew install pkg-config
 brew install plotutils
 brew install poppler
 brew install proctools
+brew install prometheus
 brew install pstoedit
 brew install pth
 brew install pv
@@ -158,6 +166,7 @@ brew install qrupdate
 brew install qscintilla2
 brew install qt
 brew install qt5
+brew install qt@5.7
 brew install rabbitmq
 brew install rclone
 brew install readline
@@ -166,6 +175,7 @@ brew install rocksdb
 brew install rtmpdump
 brew install ruby
 brew install sassc
+brew install selenium-server-standalone
 brew install sip
 brew install sleuthkit
 brew install snappy
@@ -178,6 +188,7 @@ brew install szip
 brew install tbb
 brew install tesseract
 brew install texinfo
+brew install the_platinum_searcher
 brew install thrift
 brew install tmux
 brew install transfig
