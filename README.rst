@@ -140,15 +140,3 @@ Symlink command line utility to ``/usr/bin``.
 .. code-block:: bash
 
     sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin
-
-Python packages
----------------
-
-Install system python packages:
-
-.. code-block:: bash
-
-    cd ~/Dotfiles
-
-    pip install -r requirements.txt
-
