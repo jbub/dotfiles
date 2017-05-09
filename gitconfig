@@ -1,6 +1,6 @@
 [user]
 	name = jbub
-	email = contact@jbub.eu
+	email = juraj.bubniak@gmail.com
 [core]
 	excludesfile = .gitignore
 	editor = /usr/bin/vim
