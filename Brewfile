@@ -6,7 +6,6 @@ brew tap homebrew/dupes
 brew install adns
 brew install ansible
 brew install ant
-brew install app-engine-go-64
 brew install apr
 brew install apr-util
 brew install arpack
@@ -27,9 +26,12 @@ brew install cpp-netlib
 brew install cscope
 brew install curl
 brew install dirmngr
+brew install dos2unix
 brew install doxygen
+brew install drone
 brew install epstool
 brew install erlang
+brew install erlang@19
 brew install exiftool
 brew install ffmpeg
 brew install fftw
@@ -62,12 +64,13 @@ brew install gnupg2
 brew install gnuplot
 brew install gnutls
 brew install go
-brew install go-app-engine-64
 brew install go-swagger
+brew install goaccess
 brew install gobject-introspection
 brew install gpg-agent
 brew install grafana
 brew install graphicsmagick
+brew install graphite2
 brew install graphviz
 brew install harfbuzz
 brew install hdf5
@@ -85,6 +88,7 @@ brew install jpeg
 brew install lame
 brew install latex2rtf
 brew install leptonica
+brew install libarchive
 brew install libassuan
 brew install libevent
 brew install libffi
@@ -111,6 +115,7 @@ brew install libvo-aacenc
 brew install libxml2
 brew install libyaml
 brew install little-cms2
+brew install lldpd
 brew install lua
 brew install lz4
 brew install lzo
@@ -129,6 +134,7 @@ brew install msgpack
 brew install mysql
 brew install nettle
 brew install nginx
+brew install nload
 brew install nmap
 brew install node
 brew install npth
@@ -191,12 +197,15 @@ brew install texinfo
 brew install the_platinum_searcher
 brew install thrift
 brew install tmux
+brew install tokyo-cabinet
 brew install transfig
 brew install tree
 brew install ttfautohint
 brew install unixodbc
 brew install utf8proc
+brew install vault
 brew install veclibfort
+brew install vegeta
 brew install vim
 brew install watch
 brew install webp
