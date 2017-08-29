@@ -1,7 +1,6 @@
 brew tap caskroom/cask
-brew tap homebrew/versions
-brew tap homebrew/binary
-brew tap homebrew/dupes
+brew tap drone/drone
+brew tap go-swagger/go-swagger
 
 brew install adns
 brew install ansible
@@ -22,7 +21,6 @@ brew install cairo
 brew install chromedriver
 brew install cloog
 brew install cmake
-brew install cpp-netlib
 brew install cscope
 brew install curl
 brew install dirmngr
