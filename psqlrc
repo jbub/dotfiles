@@ -1,6 +1,9 @@
-\x auto
 \timing on
 \encoding unicode
 \pset null 'NULL'
+\pset pager always
+\set QUIET 1
+\set HISTCONTROL ignoredups
 \set HISTSIZE 2000
 \set HISTFILE ~/.psql_history- :DBNAME
+\set COMP_KEYWORD_CASE upper

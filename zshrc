@@ -34,6 +34,10 @@ export PATH=$PATH:"/sbin"
 # Postgres.app
 export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.6/bin"
 
+# psql
+export PAGER="less"
+export LESS="-iMSx4 -FX"
+
 # golang
 export GOVERSION="1.9"
 export GOPATH=$HOME"/go"
@@ -54,9 +58,6 @@ export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
 # java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
-
-# git
-alias gitup="git pl && git sb update"
 
 # secret environment vars
 [[ -f .env ]] && source .env
