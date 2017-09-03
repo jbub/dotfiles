@@ -2,6 +2,8 @@
 \encoding unicode
 \pset null 'NULL'
 \pset pager always
+\setenv PAGER 'less'
+\setenv LESS '-iMSx4 -FX'
 \set QUIET 1
 \set HISTCONTROL ignoredups
 \set HISTSIZE 2000

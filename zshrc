@@ -34,10 +34,6 @@ export PATH=$PATH:"/sbin"
 # Postgres.app
 export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.6/bin"
 
-# psql
-export PAGER="less"
-export LESS="-iMSx4 -FX"
-
 # golang
 export GOVERSION="1.9"
 export GOPATH=$HOME"/go"
