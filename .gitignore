@@ -13,6 +13,9 @@ config/configstore/
 # robomongo
 config/robomongo/
 
+# htop
+config/htop/
+
 # eid client
 config/Plaut Slovensko s.r.o/
 
