@@ -41,6 +41,9 @@ export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
 export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 
+# python
+export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
+
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python@2/bin/python2
