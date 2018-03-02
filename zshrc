@@ -43,7 +43,7 @@ export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python@2/bin/python2
 export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 source /usr/local/bin/virtualenvwrapper.sh
