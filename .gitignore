@@ -25,6 +25,9 @@ config/octave/
 # gocode
 config/gocode/
 
+# yarn
+config/yarn/
+
 # isolated storage
 config/.isolated-storage
 
