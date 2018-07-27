@@ -1,51 +1,51 @@
 // Place your settings in this file to overwrite the default settings
 {
-	//
-	// Editor
-	//
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-	"editor.fontWeight": "normal",
-	"editor.fontSize": 12,
-	"editor.lineHeight": 18,
-	"editor.minimap.enabled": false,
-	//
-	// Workbench
-	//
-	"workbench.colorTheme": "Monokai",
-	"workbench.iconTheme": "vs-minimal",
-	//
-	// Files
-	//
-	"files.associations": {
-		// Ansible
-		"*.j2": "ansible",
-		"main.yml": "ansible",
-		"*.gotmpl": "gohtml",
-		"Dockerfile.*": "dockerfile",
-	},
-	//
-	// Python
-	//
-	"python.linting.lintOnSave": false,
-	"python.linting.enabled": false,
-	"python.linting.pylintEnabled": false,
-	"python.linting.enabledWithoutWorkspace": false,
-	"python.formatting.autopep8Args": [
-		"--max-line-length 120"
-	],
-	//
-	// HTML
-	//
-	"html.format.enable": false,
-	//
-	// Go
-	//
-	"go.buildOnSave": "package",
-	"go.lintOnSave": "package",
-	"go.vetOnSave": "package",
-	"go.autocompleteUnimportedPackages": true,
-	"go.useCodeSnippetsOnFunctionSuggest": true,
-	"go.formatTool": "goreturns"
+    //
+    // Editor
+    //
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 18,
+    "editor.minimap.enabled": false,
+    //
+    // Workbench
+    //
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-minimal",
+    //
+    // Files
+    //
+    "files.associations": {
+        // Ansible
+        "*.j2": "ansible",
+        "main.yml": "ansible",
+        "*.gotmpl": "gohtml",
+        "Dockerfile.*": "dockerfile",
+    },
+    //
+    // Python
+    //
+    "python.venvPath": "~/.virtualenvs",
+    "python.linting.lintOnSave": false,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length 120"
+    ],
+    //
+    // HTML
+    //
+    "html.format.enable": false,
+    //
+    // Go
+    //
+    "go.buildOnSave": "package",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.formatTool": "goreturns"
 }
