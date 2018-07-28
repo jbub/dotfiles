@@ -32,7 +32,7 @@ export PATH=$PATH:"/usr/sbin"
 export PATH=$PATH:"/sbin"
 
 # Postgres.app
-export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/9.6/bin"
+export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/10/bin"
 
 # golang
 export GOVERSION="1.10.3"
