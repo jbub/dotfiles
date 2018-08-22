@@ -2,6 +2,8 @@ brew tap caskroom/cask
 brew tap drone/drone
 brew tap go-swagger/go-swagger
 
+brew cask install chromedriver
+
 brew install adns
 brew install ansible
 brew install apr
@@ -20,7 +22,6 @@ brew install bsdmake
 brew install c-ares
 brew install cairo
 brew install certbot
-brew install chromedriver
 brew install cloog
 brew install cmake
 brew install cockroach
