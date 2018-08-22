@@ -47,5 +47,9 @@
     "go.vetOnSave": "package",
     "go.autocompleteUnimportedPackages": true,
     "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.formatTool": "goreturns"
+    "go.formatTool": "goreturns",
+    //
+    // Telemetry
+    //
+    "telemetry.enableTelemetry": false
 }
