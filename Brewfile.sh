@@ -4,7 +4,6 @@ brew tap go-swagger/go-swagger
 
 brew install adns
 brew install ansible
-brew install ant
 brew install apr
 brew install apr-util
 brew install aria2
