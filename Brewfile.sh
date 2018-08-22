@@ -3,6 +3,7 @@ brew tap drone/drone
 brew tap go-swagger/go-swagger
 
 brew cask install chromedriver
+brew cask install google-cloud-sdk
 
 brew install adns
 brew install ansible
