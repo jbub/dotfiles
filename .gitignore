@@ -28,6 +28,9 @@ config/gocode/
 # yarn
 config/yarn/
 
+# gcloud
+config/gcloud/
+
 # isolated storage
 config/.isolated-storage
 
