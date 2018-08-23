@@ -119,4 +119,4 @@ Finally change the default shell for your user.
 
 .. code-block:: bash
 
-    chsh -s /usr/local/bin/zsh
+    sudo chsh -s /usr/local/bin/zsh
