@@ -71,7 +71,7 @@ brew install glpk
 brew install gmp
 brew install gmp@4
 brew install gnu-getopt
-brew install gnu-sed
+brew install gnu-sed --with-default-names
 brew install gnupg
 brew install gnupg2
 brew install gnuplot
