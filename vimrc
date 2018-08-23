@@ -66,17 +66,5 @@ set nobackup                         " disable backups
 set nowb                             " no automatic backup before overwriting
 set noswapfile                       " do not create swap files
 
-"
-" Color scheme
-"
-
-if has("gui_macvim")
-    set guifont=Ubuntu\ Mono:h13     " set default font
-    set anti                         " enable antializing
-    let macvim_skip_colorscheme=1    " disable mac vim color scheme
-    let g:molokai_original=1         " use original molokai color scheme
-    colorscheme molokai              " set molokai colorscheme
-endif
-
 " file type based syntax highlighting
 au BufRead,BufNewFile *.sublime-settings set filetype=javascript
