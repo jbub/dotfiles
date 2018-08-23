@@ -73,7 +73,26 @@ Install packages from Brewfile:
 Iterm2
 ------
 
-Just make sure you point to your settings folder to ``~/.iterm2`` and import the color scheme ``jbub.itermcolors`` to your profile.
+Setup preferences to be loaded from custom location:
+
+.. code-block:: bash
+
+    Preferences -> Load preferences from a custom folder or URL -> $HOME/Dotfiles/iterm2
+
+Import and select the custom color scheme:
+
+.. code-block:: bash
+
+    Preferences -> Profiles -> Colors -> Color Presets -> Import -> $HOME/Dotfiles/iterm2/jbub.itermcolors
+    Preferences -> Profiles -> Colors -> Color Presets -> jbub
+
+Setup key mapping:
+
+.. code-block:: bash
+
+    Preferences -> Profiles -> Keys -> Left options acts as: Esc
+    Preferences -> Profiles -> Keys -> Add -> Left option + Left arrow, Send Escape Sequence, Esc+ b
+    Preferences -> Profiles -> Keys -> Add -> Left option + Right arrow , Send Escape Sequence, Esc+ f
 
 Oh My Zsh
 ---------
