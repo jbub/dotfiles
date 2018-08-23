@@ -13,6 +13,9 @@ config/configstore/
 # robomongo
 config/robomongo/
 
+# fontforge
+config/fontforge/
+
 # htop
 config/htop/
 
