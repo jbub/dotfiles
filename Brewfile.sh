@@ -192,6 +192,8 @@ brew install protobuf
 brew install pstoedit
 brew install pth
 brew install pv
+brew install pyenv
+brew install pyenv-virtualenv
 brew install pypy
 brew install pypy3
 brew install pyqt
