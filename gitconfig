@@ -1,6 +1,6 @@
 [user]
-	name = jbub
-	email = juraj.bubniak@gmail.com
+	name = Juraj Bubniak
+	email = juraj.bubniak@exponea.com
 [core]
 	excludesfile = .gitignore_global
 	editor = /usr/bin/vim
