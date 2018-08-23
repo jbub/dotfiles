@@ -7,12 +7,6 @@ Dotfiles
 
 My dotfiles managed by https://github.com/jbernard/dotfiles.
 
-Fonts
------
-
-Grab fonts from Ubuntu font site http://font.ubuntu.com/ and install them.
-I am using ``Ubuntu Mono`` with size of ``13``.
-
 Dotfiles
 --------
 
@@ -93,6 +87,12 @@ Setup key mapping:
     Preferences -> Profiles -> Keys -> Left options acts as: Esc
     Preferences -> Profiles -> Keys -> Add -> Left option + Left arrow, Send Escape Sequence, Esc+ b
     Preferences -> Profiles -> Keys -> Add -> Left option + Right arrow , Send Escape Sequence, Esc+ f
+
+Setup font:
+
+.. code-block:: bash
+
+    Preferences -> Profiles -> Text -> Change font -> 12pt Menlo Regular
 
 Oh My Zsh
 ---------
