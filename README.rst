@@ -36,7 +36,7 @@ Install Homebrew:
 
 .. code-block:: bash
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Update ``/etc/paths`` so that ``/usr/local/bin`` goes first:
 
