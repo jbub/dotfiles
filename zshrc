@@ -46,11 +46,7 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # virtualenv
-export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=python
-export VIRTUALENVWRAPPER_VIRTUALENV=virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-source /usr/local/bin/virtualenvwrapper.sh
 
 # java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
