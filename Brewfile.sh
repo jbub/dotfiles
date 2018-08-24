@@ -104,6 +104,7 @@ brew install jasper
 brew install jbig2dec
 brew install jemalloc
 brew install jpeg
+brew install kubernetes-cli
 brew install lame
 brew install latex2rtf
 brew install leptonica
