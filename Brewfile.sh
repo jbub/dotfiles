@@ -54,6 +54,7 @@ brew install fltk
 brew install fontconfig
 brew install freetype
 brew install fribidi
+brew install fzf
 brew install gcc
 brew install gd
 brew install gdbm

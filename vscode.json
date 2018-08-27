@@ -16,14 +16,18 @@
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vs-minimal",
     //
+    // Window
+    //
+    "window.zoomLevel": 0,
+    //
     // Files
     //
     "files.associations": {
-        // Ansible
         "*.j2": "ansible",
         "main.yml": "ansible",
         "*.gotmpl": "gohtml",
         "Dockerfile.*": "dockerfile",
+        "zshrc": "shellscript"
     },
     //
     // Python
