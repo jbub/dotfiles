@@ -51,5 +51,11 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 # java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 
+# gcloud
+export CLOUDSDK_PYTHON=/Users/jbub/.pyenv/versions/2.7.15/bin/python2
+
+# kubectl
+alias k=kubectl
+
 # secret environment vars
 [[ -f .env ]] && source .env
