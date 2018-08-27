@@ -5,6 +5,9 @@ brew tap go-swagger/go-swagger
 brew cask install java
 brew cask install chromedriver
 brew cask install google-cloud-sdk
+brew cask install postgres
+brew cask install postico
+brew cask install dropbox
 
 brew install adns
 brew install ansible
@@ -104,6 +107,7 @@ brew install jasper
 brew install jbig2dec
 brew install jemalloc
 brew install jpeg
+brew install kubectx
 brew install kubernetes-cli
 brew install lame
 brew install latex2rtf

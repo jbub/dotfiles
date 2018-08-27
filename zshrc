@@ -54,8 +54,9 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 # gcloud
 export CLOUDSDK_PYTHON=/Users/jbub/.pyenv/versions/2.7.15/bin/python2
 
-# kubectl
+# kubernetes
 alias k=kubectl
+alias kc=kubectx
 
 # secret environment vars
 [[ -f .env ]] && source .env
