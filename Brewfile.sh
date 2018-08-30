@@ -8,6 +8,7 @@ brew cask install google-cloud-sdk
 brew cask install postgres
 brew cask install postico
 brew cask install dropbox
+brew cask install vlc
 
 brew install adns
 brew install ansible
