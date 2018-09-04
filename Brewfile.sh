@@ -35,6 +35,7 @@ brew install cpp-netlib
 brew install crowdin
 brew install cscope
 brew install curl
+brew install ctop
 brew install dep
 brew install dialog
 brew install dirmngr
