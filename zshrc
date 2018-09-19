@@ -58,5 +58,9 @@ export CLOUDSDK_PYTHON=/Users/jbub/.pyenv/versions/2.7.15/bin/python2
 alias k=kubectl
 alias kc=kubectx
 
+# docker compose
+alias dcup="docker-compose up -d --remove-orphans"
+alias dcdn="docker-compose down --remove-orphans"
+
 # secret environment vars
 [[ -f .env ]] && source .env
