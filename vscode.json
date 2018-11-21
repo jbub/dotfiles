@@ -27,7 +27,8 @@
         "main.yml": "ansible",
         "*.gotmpl": "gohtml",
         "Dockerfile.*": "dockerfile",
-        "zshrc": "shellscript"
+        "zshrc": "shellscript",
+        "*.mod": "go"
     },
     //
     // Python
@@ -52,6 +53,9 @@
     "go.autocompleteUnimportedPackages": true,
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.formatTool": "goreturns",
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
     //
     // YAML
     //
@@ -59,5 +63,5 @@
     //
     // Telemetry
     //
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
 }
