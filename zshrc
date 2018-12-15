@@ -35,7 +35,7 @@ export PATH=$PATH:"/sbin"
 export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/10/bin"
 
 # golang
-export GOVERSION="1.11.2"
+export GOVERSION="1.11.4"
 export GOPATH=$HOME"/go"
 export GOROOT="/usr/local/Cellar/go/"$GOVERSION"/libexec"
 export PATH=$PATH:$GOPATH"/bin"
