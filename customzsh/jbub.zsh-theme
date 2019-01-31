@@ -24,6 +24,7 @@ ZSH_THEME_VIRTUALENV_PROMPT_SUFFIX="%{$reset_color%}"
 KUBE_PS1_NS_ENABLE=false
 KUBE_PS1_SYMBOL_ENABLE=false
 KUBE_PS1_PREFIX=' ctx '
+KUBE_PS1_SUFFIX=''
 
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'
