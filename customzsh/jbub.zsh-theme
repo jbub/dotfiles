@@ -9,7 +9,7 @@ function virtualenv_prompt_info() {
 }
 
 PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}$(box_name)%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(virtualenv_prompt_info)$(git_prompt_info)
+%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}$(box_name)%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(virtualenv_prompt_info)$(git_prompt_info)$(kube_ps1)
 %(?,,%{${fg_bold[white]}%}[%?]%{$reset_color%} )$ '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
@@ -20,6 +20,10 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 ZSH_THEME_VIRTUALENV_PROMPT_PREFIX=" venv %{$fg[yellow]%}"
 ZSH_THEME_VIRTUALENV_PROMPT_SUFFIX="%{$reset_color%}"
+
+KUBE_PS1_NS_ENABLE=false
+KUBE_PS1_SYMBOL_ENABLE=false
+KUBE_PS1_PREFIX=' ctx '
 
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'

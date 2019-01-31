@@ -16,9 +16,6 @@ DISABLE_CORRECTION="true"
 # zsh plugins
 plugins=(git)
 
-# run oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-
 # encoding
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -42,10 +39,6 @@ export PATH=$PATH:$GOPATH"/bin"
 export PATH=$PATH:"/usr/local/Cellar/go/"$GOVERSION"/bin"
 export GO111MODULE="on"
 
-# pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 # virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
@@ -54,6 +47,16 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 
 # gcloud
 export CLOUDSDK_PYTHON=/Users/jbub/.pyenv/versions/2.7.15/bin/python2
+
+# run oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# kube-ps1
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # kubernetes
 alias k=kubectl
