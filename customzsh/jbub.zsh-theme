@@ -25,6 +25,7 @@ KUBE_PS1_NS_ENABLE=false
 KUBE_PS1_SYMBOL_ENABLE=false
 KUBE_PS1_PREFIX=' ctx '
 KUBE_PS1_SUFFIX=''
+KUBE_PS1_CTX_COLOR='blue'
 
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'
