@@ -66,5 +66,8 @@ alias kc=kubectx
 alias dcup="docker-compose up -d --remove-orphans"
 alias dcdn="docker-compose down --remove-orphans"
 
+# use gnu sed
+alias sed="/usr/local/opt/gnu-sed/libexec/gnubin/sed"
+
 # secret environment vars
 [[ -f .env ]] && source .env
