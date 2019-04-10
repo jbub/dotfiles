@@ -21,6 +21,7 @@ config/htop/
 
 # eid client
 config/Plaut Slovensko s.r.o/
+config/EAC_MW_klient/
 
 # octave
 config/octave/
