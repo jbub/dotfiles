@@ -33,10 +33,9 @@ export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/10/bin"
 
 # golang
 export GOPATH=$HOME"/go"
-export GOROOT="/usr/local/Cellar/go@1.12/1.12.13/libexec"
+export GOROOT="/usr/local/Cellar/go/1.13.4/libexec"
 export PATH=$PATH:$GOPATH"/bin"
-export PATH=$PATH:"/usr/local/Cellar/go@1.12/1.12.13/libexec/bin"
-export GO111MODULE="on"
+export PATH=$PATH:"/usr/local/Cellar/go/1.13.4/libexec/bin"
 
 # virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
