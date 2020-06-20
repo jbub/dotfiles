@@ -34,3 +34,8 @@
 	required = true
 [url "git@gitlab.exponea.com:"]
     insteadOf = https://gitlab.exponea.com/
+[pull]
+	rebase = false
+[diff "kube-vault"]
+	cachetextconv = false
+	textconv = /Users/jbub/.pyenv/versions/kube/bin/python /Users/jbub/Projects/kube/deploy.py show
