@@ -13,9 +13,6 @@ CASE_SENSITIVE="true"
 # disable zsh command autocorrection
 DISABLE_CORRECTION="true"
 
-# zsh plugins
-plugins=(git)
-
 # encoding
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
