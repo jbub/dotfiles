@@ -23,6 +23,9 @@ config/htop/
 config/Plaut Slovensko s.r.o/
 config/EAC_MW_klient/
 
+# deluge
+config/deluge/
+
 # octave
 config/octave/
 
