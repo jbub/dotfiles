@@ -34,6 +34,8 @@
 	required = true
 [url "git@gitlab.exponea.com:"]
     insteadOf = https://gitlab.exponea.com/
+[url "git@code.jbub.eu:6777:"]
+    insteadOf = https://code.jbub.eu/
 [pull]
 	rebase = false
 [diff "kube-vault"]
