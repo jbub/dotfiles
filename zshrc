@@ -44,7 +44,6 @@ source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
 
 # pyenv
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 # kubernetes
 alias k=kubectl
