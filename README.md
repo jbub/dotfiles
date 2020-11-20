@@ -1,7 +1,5 @@
 # Dotfiles
 
-![image](https://requires.io/github/jbub/dotfiles/requirements.png?branch=master%0A%20%20:target:%20https://requires.io/github/jbub/dotfiles/requirements/?branch=master%0A%20%20:alt:%20Requirements%20Status)
-
 My dotfiles managed by <https://github.com/jbernard/dotfiles>.
 
 ## Dotfiles
