@@ -94,14 +94,8 @@ Setup font:
 
     Preferences -> Profiles -> Text -> Change font -> 12pt Menlo Regular
 
-Oh My Zsh
----------
-
-Clone oh-my-zsh to your home directory under ``~/.oh-my-zsh``.
-
-.. code-block:: bash
-
-    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+Zsh
+---
 
 Add ``zsh`` to ``/etc/shells``.
 
