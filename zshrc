@@ -1,12 +1,3 @@
-# path to zsh configuration
-ZSH=$HOME/.oh-my-zsh
-
-# custom oh-my-zsh dir
-ZSH_CUSTOM=$HOME"/.customzsh"
-
-# zsh theme
-ZSH_THEME="jbub"
-
 # enable zsh case-sensitive completion
 CASE_SENSITIVE="true"
 
@@ -30,9 +21,9 @@ export PATH=$PATH:"/Applications/Postgres.app/Contents/Versions/12/bin"
 
 # golang
 export GOPATH=$HOME"/go"
-export GOROOT="/usr/local/Cellar/go/1.15.4/libexec"
+export GOROOT="/usr/local/Cellar/go/1.15.5/libexec"
 export PATH=$PATH:$GOPATH"/bin"
-export PATH=$PATH:"/usr/local/Cellar/go/1.15.4/libexec/bin"
+export PATH=$PATH:"/usr/local/Cellar/go/1.15.5/libexec/bin"
 
 # virtualenv
 export VIRTUAL_ENV_DISABLE_PROMPT=1
@@ -42,9 +33,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 
 # gcloud
 export CLOUDSDK_PYTHON=/Users/jbub/.pyenv/versions/3.6.6/bin/python
-
-# run oh-my-zsh
-source $ZSH/oh-my-zsh.sh
 
 # kube-ps1
 source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
@@ -66,3 +54,5 @@ alias gup="go list -u -m -json all | go-mod-outdated -direct -update"
 
 # secret environment vars
 [[ -f .env ]] && source .env
+
+eval "$(starship init zsh)"
