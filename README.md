@@ -84,7 +84,7 @@ Preferences -> Profiles -> Keys -> Add -> Left option + Right arrow , Send Escap
 Setup font:
 
 ```bash
-Preferences -> Profiles -> Text -> Change font -> 12pt Menlo Regular
+Preferences -> Profiles -> Text -> Change font -> 14pt, Medium, FiraCode Nerd Font Mono
 ```
 
 Zsh
