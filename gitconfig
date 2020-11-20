@@ -1,6 +1,6 @@
 [user]
 	name = Juraj Bubniak
-	email = juraj.bubniak@exponea.com
+	email = juraj.bubniak@gmail.com
 [core]
 	excludesfile = .gitignore_global
 	editor = /usr/bin/vim
@@ -32,12 +32,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
-[url "git@gitlab.exponea.com:"]
-    insteadOf = https://gitlab.exponea.com/
 [url "git@code.jbub.eu:6777:"]
     insteadOf = https://code.jbub.eu/
 [pull]
 	rebase = false
-[diff "kube-vault"]
-	cachetextconv = false
-	textconv = /Users/jbub/.pyenv/versions/kube/bin/python /Users/jbub/Projects/kube/deploy.py show
