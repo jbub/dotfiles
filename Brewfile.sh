@@ -10,6 +10,7 @@ brew cask install google-cloud-sdk
 brew cask install handbrake
 brew cask install java
 brew cask install java8
+brew cask install mattermost
 brew cask install postgres
 brew cask install postico
 brew cask install vagrant
@@ -313,6 +314,7 @@ brew install speex
 brew install sqlite
 brew install sqlmap
 brew install srt
+brew install starship
 brew install stern
 brew install subversion
 brew install suite-sparse
