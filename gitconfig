@@ -32,7 +32,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
-[url "git@code.jbub.eu:6777:"]
+[url "ssh://git@code.jbub.eu:6777/"]
 	insteadOf = https://code.jbub.eu/
 [pull]
 	rebase = false
