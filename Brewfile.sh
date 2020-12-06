@@ -1,26 +1,26 @@
 brew tap caskroom/cask
 brew tap drone/drone
-brew tap go-swagger/go-swagger
+brew tap homebrew/binary
+brew tap homebrew/boneyard
+brew tap homebrew/cask
+brew tap homebrew/cask-versions
+brew tap homebrew/core
+brew tap homebrew/dupes
+brew tap homebrew/versions
 brew tap wagoodman/dive
 
-brew cask install chromedriver
-brew cask install cyberduck
-brew cask install dropbox
-brew cask install google-cloud-sdk
-brew cask install handbrake
-brew cask install java
-brew cask install java8
-brew cask install mattermost
-brew cask install postgres
-brew cask install postico
-brew cask install vagrant
-brew cask install virtualbox
-brew cask install vlc
-brew cask install wkhtmltopdf
+brew install --cask chromedriver
+brew install --cask google-cloud-sdk
+brew install --cask java
+brew install --cask java8
+brew install --cask mattermost
+brew install --cask thunderbird
+brew install --cask vlc
+brew install --cask wkhtmltopdf
 
 brew install abseil
 brew install adns
-brew install ansible
+brew install afflib
 brew install aom
 brew install apr
 brew install apr-util
@@ -30,25 +30,28 @@ brew install asio
 brew install augeas
 brew install autoconf
 brew install automake
-brew install avro-c
 brew install bazaar
 brew install bdw-gc
+brew install bfg
 brew install bison
 brew install boost
+brew install brotli
 brew install bsdmake
-brew install buf
 brew install c-ares
+brew install cabal-install
 brew install cairo
 brew install certbot
+brew install chromedriver
 brew install cloog
 brew install cmake
-brew install cockroach
+brew install cpp-netlib
 brew install cscope
 brew install ctop
 brew install cunit
 brew install curl
 brew install dav1d
 brew install dialog
+brew install dirmngr
 brew install dive
 brew install dnsmasq
 brew install docbook
@@ -60,14 +63,9 @@ brew install drone
 brew install eigen
 brew install epstool
 brew install erlang
-brew install erlang@19
-brew install erlang@20
-brew install etcd
 brew install exiftool
 brew install ffmpeg
 brew install fftw
-brew install fig2dev
-brew install filebeat
 brew install flac
 brew install flex
 brew install fltk
@@ -85,46 +83,41 @@ brew install geoip
 brew install geos
 brew install gettext
 brew install gflags
+brew install ghc
+brew install ghc@8.8
 brew install ghostscript
 brew install giflib
 brew install git
-brew install git-chglog
 brew install git-extras
 brew install git-lfs
 brew install gl2ps
 brew install glib
+brew install glide
 brew install glog
 brew install glpk
 brew install gmp
+brew install gmp@4
 brew install gnu-getopt
 brew install gnu-sed
 brew install gnupg
-brew install gnuplot
+brew install gnupg2
 brew install gnutls
 brew install go
-brew install go-swagger
-brew install go@1.12
-brew install go@1.13
-brew install goaccess
 brew install gobject-introspection
-brew install golangci-lint
-brew install gometalinter
-brew install gor
 brew install goreleaser
-brew install gpgme
+brew install gpg-agent
 brew install grafana
 brew install graphicsmagick
 brew install graphite2
 brew install graphviz
 brew install grpc
-brew install grpcurl
 brew install gts
 brew install guile
-brew install handbrake
 brew install harfbuzz
 brew install hdf5
 brew install helm
 brew install htop
+brew install htop-osx
 brew install hugo
 brew install hwloc
 brew install icu4c
@@ -133,17 +126,14 @@ brew install imagemagick
 brew install influxdb
 brew install intltool
 brew install isl
+brew install isl@0.12
 brew install jansson
 brew install jasper
 brew install jbig2dec
 brew install jemalloc
 brew install jpeg
-brew install jq
 brew install kafka
-brew install kafkacat
-brew install kind
-brew install kompose
-brew install kube-capacity
+brew install krb5
 brew install kube-ps1
 brew install kubectx
 brew install kubernetes-cli
@@ -156,11 +146,11 @@ brew install libass
 brew install libassuan
 brew install libb2
 brew install libbluray
-brew install libcapn
 brew install libcerf
 brew install libde265
 brew install libev
 brew install libevent
+brew install libewf
 brew install libffi
 brew install libgcrypt
 brew install libgit2
@@ -173,16 +163,16 @@ brew install liblqr
 brew install libmagic
 brew install libmaxminddb
 brew install libmemcached
+brew install libmetalink
 brew install libmpc
 brew install libogg
 brew install libomp
-brew install libpcap
 brew install libpng
+brew install libpq
 brew install librdkafka
 brew install libressl
 brew install libsamplerate
 brew install libsass
-brew install libserdes
 brew install libsndfile
 brew install libsodium
 brew install libsoxr
@@ -203,7 +193,6 @@ brew install libxmlsec1
 brew install libyaml
 brew install little-cms2
 brew install lldpd
-brew install logstash
 brew install lua
 brew install luajit
 brew install lz4
@@ -214,40 +203,36 @@ brew install makedepend
 brew install mcrypt
 brew install memcached
 brew install mercurial
+brew install meson
 brew install metis
 brew install mhash
 brew install minio-mc
-brew install mitmproxy
 brew install modd
 brew install mongodb
 brew install mpfr
 brew install msgpack
 brew install mysql
-brew install nats-streaming-server
 brew install ncurses
 brew install netpbm
 brew install nettle
+brew install nghttp2
 brew install nginx
+brew install ninja
 brew install nload
 brew install nmap
 brew install node
-brew install node@10
-brew install nomad
 brew install npth
 brew install nspr
 brew install nss
-brew install oauth2l
-brew install oniguruma
 brew install open-mpi
 brew install openblas
 brew install opencore-amr
 brew install openexr
 brew install openfortivpn
 brew install openjdk
-brew install openjdk@11
 brew install openjpeg
+brew install openldap
 brew install openssl@1.1
-brew install operator-sdk
 brew install opus
 brew install p11-kit
 brew install packer
@@ -258,62 +243,54 @@ brew install pcre2
 brew install perl
 brew install pgbadger
 brew install pgbouncer
-brew install pgpdump
 brew install pgweb
 brew install phantomjs
 brew install pinentry
-brew install pinentry-mac
-brew install pipenv
 brew install pixman
 brew install pkg-config
 brew install plotutils
-brew install poppler
 brew install portaudio
 brew install proctools
 brew install prometheus
 brew install protobuf
 brew install protobuf-c
-brew install protobuf@3.7
 brew install prototool
 brew install pstoedit
 brew install pth
 brew install pv
-brew install pybind11
 brew install pyenv
 brew install pyenv-virtualenv
 brew install pypy
 brew install pypy3
-brew install pyqt
 brew install python@2
 brew install python@3.8
 brew install python@3.9
 brew install qhull
 brew install qrupdate
-brew install qscintilla2
-brew install qt
 brew install rabbitmq
 brew install rapidjson
 brew install rav1e
 brew install rclone
 brew install re2
+brew install re2c
 brew install readline
 brew install redis
-brew install restic
-brew install rocksdb
+brew install rpcgen
 brew install rtmpdump
 brew install rubberband
 brew install ruby
 brew install sassc
 brew install sdl2
 brew install selenium-server-standalone
-brew install sentry-cli
 brew install shared-mime-info
 brew install sip
+brew install sleuthkit
 brew install snappy
 brew install speex
+brew install sphinx-doc
 brew install sqlite
-brew install sqlmap
 brew install srt
+brew install ssdeep
 brew install starship
 brew install stern
 brew install subversion
@@ -326,14 +303,10 @@ brew install tbb
 brew install tcl-tk
 brew install telnet
 brew install terraform
-brew install terraformer
 brew install tesseract
 brew install texinfo
 brew install the_platinum_searcher
 brew install theora
-brew install thrift
-brew install tile38
-brew install tldr
 brew install tmux
 brew install tokyo-cabinet
 brew install traefik
@@ -342,13 +315,10 @@ brew install ttfautohint
 brew install unbound
 brew install unixodbc
 brew install utf8proc
-brew install vault
 brew install veclibfort
-brew install vegeta
 brew install vim
 brew install watch
 brew install webp
-brew install wrk
 brew install wxmac
 brew install x264
 brew install x265
@@ -358,7 +328,7 @@ brew install xz
 brew install yajl
 brew install yara
 brew install yarn
-brew install zeromq
+brew install yasm
 brew install zlib
 brew install zookeeper
 brew install zsh
