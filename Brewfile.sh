@@ -39,7 +39,6 @@ brew install ctop
 brew install cunit
 brew install curl
 brew install dav1d
-brew install dialog
 brew install dive
 brew install dnsmasq
 brew install docbook
@@ -48,13 +47,9 @@ brew install docutils
 brew install dos2unix
 brew install doxygen
 brew install drone
-brew install eigen
 brew install erlang
 brew install ffmpeg
-brew install fftw
 brew install flac
-brew install flex
-brew install fltk
 brew install fontconfig
 brew install freetds
 brew install freetype
@@ -66,7 +61,6 @@ brew install gd
 brew install gdbm
 brew install geckodriver
 brew install geoip
-brew install geos
 brew install gettext
 brew install gflags
 brew install ghostscript
@@ -75,8 +69,6 @@ brew install git
 brew install git-extras
 brew install git-lfs
 brew install glib
-brew install glog
-brew install glpk
 brew install gmp
 brew install gmp@4
 brew install gnu-getopt
@@ -88,7 +80,6 @@ brew install go
 brew install gobject-introspection
 brew install goreleaser
 brew install gpg-agent
-brew install grafana
 brew install graphite2
 brew install graphviz
 brew install grpc
@@ -103,11 +94,9 @@ brew install hwloc
 brew install icu4c
 brew install ilmbase
 brew install imagemagick
-brew install influxdb
 brew install intltool
 brew install isl
 brew install isl@0.12
-brew install itstool
 brew install jansson
 brew install jasper
 brew install jemalloc
@@ -179,15 +168,12 @@ brew install lzop
 brew install mcrypt
 brew install memcached
 brew install mercurial
-brew install meson
 brew install mhash
 brew install minio-mc
 brew install modd
 brew install mongodb
 brew install mpfr
 brew install msgpack
-brew install mysql
-brew install nasm
 brew install ncurses
 brew install netpbm
 brew install nettle
@@ -200,8 +186,6 @@ brew install node
 brew install npth
 brew install nspr
 brew install nss
-brew install open-mpi
-brew install openblas
 brew install opencore-amr
 brew install openexr
 brew install openfortivpn
@@ -211,7 +195,6 @@ brew install openldap
 brew install openssl@1.1
 brew install opus
 brew install p11-kit
-brew install packer
 brew install pango
 brew install pcre
 brew install pcre2
@@ -222,8 +205,6 @@ brew install phantomjs
 brew install pinentry
 brew install pixman
 brew install pkg-config
-brew install portaudio
-brew install prometheus
 brew install protobuf
 brew install protobuf-c
 brew install prototool
@@ -251,14 +232,11 @@ brew install shared-mime-info
 brew install snappy
 brew install source-highlight
 brew install speex
-brew install sphinx-doc
 brew install sqlite
 brew install srt
 brew install starship
 brew install stern
 brew install subversion
-brew install szip
-brew install tbb
 brew install tcl-tk
 brew install telnet
 brew install terraform
