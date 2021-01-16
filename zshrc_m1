@@ -24,6 +24,10 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history
 
+# go
+export GOBIN="$HOME/go/bin"
+export PATH="$GOBIN:$PATH"
+
 # kubernetes
 alias k=kubectl
 alias kc=kubectx
