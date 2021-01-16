@@ -1,0 +1,42 @@
+# encoding
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+# homebrew
+export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+export HOMEBREW_REPOSITORY="/opt/homebrew";
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
+
+# history
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+
+setopt append_history
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+setopt share_history
+
+# kubernetes
+alias k=kubectl
+alias kc=kubectx
+
+# docker compose
+alias dcup="docker-compose up -d --remove-orphans"
+alias dcdn="docker-compose down --remove-orphans"
+
+# go-mod-outdated
+alias gup="go list -u -m -json all | go-mod-outdated -direct -update"
+
+# env specific vars
+[[ -f .env ]] && source .env
+
+# starship
+eval "$(starship init zsh)"
