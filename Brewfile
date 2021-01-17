@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "coreutils"
 brew "ctop"
 brew "curl"
 brew "fzf"
