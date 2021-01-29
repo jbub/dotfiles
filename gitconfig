@@ -36,3 +36,4 @@
 	insteadOf = https://code.jbub.eu/
 [pull]
 	rebase = false
+	ff = only
