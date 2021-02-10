@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "openjdk"
 brew "bfg"
 brew "certstrap"
 brew "coreutils"
