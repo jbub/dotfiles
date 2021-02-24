@@ -1,67 +1,19 @@
-// Place your settings in this file to overwrite the default settings
 {
-    //
-    // Editor
-    //
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "FiraCode NF",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 18,
-    "editor.minimap.enabled": false,
-    //
-    // Workbench
-    //
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vs-minimal",
-    //
-    // Window
-    //
-    "window.zoomLevel": 0,
-    //
-    // Files
-    //
-    "files.associations": {
-        "*.j2": "ansible",
-        "main.yml": "ansible",
-        "*.gotmpl": "gohtml",
-        "Dockerfile.*": "dockerfile",
-        "zshrc": "shellscript",
-        "*.mod": "go"
+    "explorer.confirmDelete": false,
+    "go.useLanguageServer": true,
+    "go.buildOnSave": "off",
+    "workbench.tree.indent": 14,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    //
-    // Python
-    //
-    "python.venvPath": "~/.virtualenvs",
-    "python.linting.lintOnSave": false,
-    "python.linting.enabled": false,
-    "python.linting.pylintEnabled": false,
-    "python.formatting.autopep8Args": [
-        "--max-line-length 120"
-    ],
-    //
-    // HTML
-    //
-    "html.format.enable": false,
-    //
-    // Go
-    //
-    "go.buildOnSave": "package",
-    "go.lintOnSave": "package",
-    "go.vetOnSave": "package",
-    "go.autocompleteUnimportedPackages": true,
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.formatTool": "goreturns",
-    "go.toolsEnvVars": {
-        "GO111MODULE": "on"
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    //
-    // YAML
-    //
-    "yaml.format.enable": true,
-    //
-    // Telemetry
-    //
-    "telemetry.enableTelemetry": false,
+    "prettier.requireConfig": true
 }
