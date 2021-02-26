@@ -84,7 +84,7 @@ disabled = true
 disabled = true
 
 [kubernetes]
-disabled = true
+disabled = false
 
 [line_break]
 disabled = false
