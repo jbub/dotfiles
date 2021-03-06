@@ -6,14 +6,24 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "explorer.confirmDelete": false,
+    "workbench.tree.indent": 14,
+    "files.associations": {
+        "*.yaml.vault": "yaml",
+        "*.yml.vault": "yaml"
+    },
     "go.useLanguageServer": true,
     "go.buildOnSave": "off",
-    "workbench.tree.indent": 14,
+    "prettier.requireConfig": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.requireConfig": true
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
