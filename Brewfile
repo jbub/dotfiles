@@ -31,7 +31,7 @@ brew "htop"
 brew "hugo"
 brew "k3d"
 brew "kompose"
-brew "kubernetes-cli", args: ["HEAD"]
+brew "kubernetes-cli"
 brew "kubectx"
 brew "libmagic"
 brew "nload"
