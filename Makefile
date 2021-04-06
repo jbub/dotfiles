@@ -12,4 +12,8 @@ clean:
 	rm -f ~/.gitconfig
 	rm -f ~/.config/starship.toml
 
-.PHONY: all clean sync
+backup:
+	restic --verbose backup ~/Google\ Drive/pgbackup
+	restic --verbose backup ~/Sync
+
+.PHONY: all clean sync backup
