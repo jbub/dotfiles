@@ -23,6 +23,13 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history
 
+# gnu utils
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"
+
 # go
 export GOBIN="$HOME/go/bin"
 export PATH="$GOBIN:$PATH"
