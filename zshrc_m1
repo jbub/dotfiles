@@ -44,6 +44,7 @@ export PATH="$GOBIN:$PATH"
 # kubernetes
 alias k=kubectl
 alias kc=kubectx
+alias kn=kubens
 
 # docker compose
 alias dcup="docker-compose up -d --remove-orphans"
