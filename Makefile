@@ -15,7 +15,6 @@ clean:
 	rm -f ~/.config/starship.toml
 
 backup:
-	restic --verbose backup ~/Google\ Drive/pgbackup
 	restic --verbose backup ~/Sync
 	restic --verbose backup ~/Documents/Photos
 	restic --verbose backup ~/Documents/Scan
