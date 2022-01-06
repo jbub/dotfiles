@@ -27,6 +27,7 @@ brew "curl"
 brew "dcraw"
 brew "dive"
 brew "envoy", args: ["HEAD"]
+brew "fdupes"
 brew "gnutls"
 brew "ffmpeg"
 brew "findutils"
