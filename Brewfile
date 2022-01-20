@@ -31,7 +31,7 @@ brew "dcraw"
 brew "dive"
 brew "doctl"
 brew "duf"
-brew "envoy", args: ["HEAD"]
+brew "envoy"
 brew "exa"
 brew "fdupes"
 brew "gnutls"
