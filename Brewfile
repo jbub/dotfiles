@@ -1,3 +1,4 @@
+tap "bufbuild/buf"
 tap "drone/drone"
 tap "filippo.io/age", "https://filippo.io/age"
 tap "homebrew/bundle"
