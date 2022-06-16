@@ -48,8 +48,8 @@ alias kc=kubectx
 alias kn=kubens
 
 # docker compose
-alias dcup="docker-compose up -d --remove-orphans"
-alias dcdn="docker-compose down --remove-orphans"
+alias dcup="docker compose up -d --remove-orphans"
+alias dcdn="docker compose down --remove-orphans"
 
 # go-mod-outdated
 alias gup="go list -u -m -json all | go-mod-outdated -direct -update"
