@@ -43,6 +43,8 @@ export GOBIN="$HOME/go/bin"
 export PATH="$GOBIN:$PATH"
 
 # kubernetes
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+
 alias k=kubectl
 alias kc=kubectx
 alias kn=kubens
