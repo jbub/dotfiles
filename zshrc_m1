@@ -43,6 +43,7 @@ export PATH="$GOBIN:$PATH"
 
 # kubernetes
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+export PATH="${PATH}:${HOME}/.krew/bin"
 
 alias k=kubectl
 alias kc=kubectx
