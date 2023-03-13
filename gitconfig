@@ -37,3 +37,5 @@
 [pull]
 	rebase = false
 	ff = only
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
