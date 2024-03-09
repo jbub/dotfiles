@@ -19,5 +19,6 @@ backup:
 	restic --verbose backup ~/Documents/Scan
 	restic --verbose backup /Volumes/ELEMENTS/Photos
 	restic --verbose backup /Volumes/ELEMENTS/fotky
+	restic --verbose backup /Volumes/ELEMENTS/Backup
 
 .PHONY: all clean sync backup
