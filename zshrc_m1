@@ -47,6 +47,9 @@ export PATH="$GOBIN:$PATH"
 # cargo
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# pnpm8
+export PATH="/opt/homebrew/opt/pnpm@8/bin:$PATH"
+
 # kubernetes
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH="${PATH}:${HOME}/.krew/bin"
