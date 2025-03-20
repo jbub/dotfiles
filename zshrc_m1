@@ -50,6 +50,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # pnpm9
 export PATH="/opt/homebrew/opt/pnpm@9/bin:$PATH"
 
+# dart
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 # kubernetes
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH="${PATH}:${HOME}/.krew/bin"
