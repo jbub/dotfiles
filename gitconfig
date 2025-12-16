@@ -32,6 +32,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
 [url "ssh://git@code.jbub.eu:6777/"]
 	insteadOf = https://code.jbub.eu/
 [pull]
