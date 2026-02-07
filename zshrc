@@ -68,6 +68,9 @@ export PATH="/opt/homebrew/opt/pnpm@9/bin:$PATH"
 # dart
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+# msgvault
+export PATH="$PATH:$HOME/.local/bin"
+
 # kubernetes
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 export PATH="${PATH}:${HOME}/.krew/bin"
