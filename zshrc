@@ -57,7 +57,7 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 # go
 export GOBIN="$HOME/go/bin"
-export PATH="/opt/homebrew/opt/go@1.25/bin:$PATH"
+export PATH="/opt/homebrew/opt/go@1.26/bin:$PATH"
 export PATH="$GOBIN:$PATH"
 
 # cargo
