@@ -38,8 +38,8 @@ setopt hist_verify
 setopt inc_append_history
 setopt share_history
 
-# node 20
-export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
+# node 24
+export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
 
 # gnu utils
 export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
