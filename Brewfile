@@ -3,11 +3,12 @@ tap "ariga/tap", trusted: true
 tap "boldsoftware/tap", trusted: true
 tap "bufbuild/buf", trusted: true
 tap "cube2222/octosql", trusted: true
+tap "ddalcu/mlx-serve", "https://github.com/ddalcu/mlx-serve", trusted: { formulae: ["mlx-serv", "mlx-servebrew"] }
 tap "etopeter/tap", trusted: true
 tap "filippo.io/age", "https://filippo.io/age", trusted: true
 tap "getsentry/tools"
 tap "go-swagger/go-swagger"
-tap "go-task/tap"
+tap "go-task/tap", trusted: { formulae: ["go-task"] }
 tap "go-testfixtures/tap"
 tap "grafana/grafana", trusted: true
 tap "grafana/pyroscope", "https://github.com/grafana/homebrew-pyroscope.git", trusted: true
@@ -28,6 +29,7 @@ tap "streamdal/tap", "https://github.com/streamdal/homebrew-tap.git", trusted: t
 tap "stripe/stripe-cli"
 tap "threedotslabs/tap", "https://github.com/ThreeDotsLabs/homebrew-tap", trusted: true
 tap "timescale/tap", trusted: true
+tap "yfedoseev/tap"
 tap "yt-dlp/taps", trusted: true
 brew "age"
 brew "aichat"
@@ -84,7 +86,8 @@ brew "gnutls"
 brew "gnupg"
 brew "go"
 brew "go-jsonnet"
-brew "go@1.25"
+brew "go-task", link: false
+brew "go@1.26"
 brew "golangci-lint"
 brew "gopls"
 brew "goreleaser"
@@ -99,6 +102,7 @@ brew "hf"
 brew "htop"
 brew "httpie"
 brew "hugo"
+brew "libheif"
 brew "imagemagick"
 brew "imap-backup"
 brew "immich-cli"
@@ -127,6 +131,7 @@ brew "nats-server"
 brew "ncdu"
 brew "nginx"
 brew "nload"
+brew "onnxruntime"
 brew "openblas"
 brew "ory-hydra"
 brew "otel-cli"
@@ -135,12 +140,14 @@ brew "parca"
 brew "pdfcpu"
 brew "pg_top"
 brew "pgformatter"
+brew "pgvector"
 brew "pipx"
 brew "pkgconf"
 brew "plow"
 brew "pnpm@9"
 brew "podman"
 brew "postgresql@15"
+brew "postgresql@18", restart_service: :changed
 brew "prometheus"
 brew "protoc-gen-grpc-web"
 brew "pyenv"
@@ -179,12 +186,13 @@ brew "wget"
 brew "xpdf"
 brew "yaegi"
 brew "yt-dlp"
+brew "zig"
 brew "zlib"
 brew "bufbuild/buf/buf"
+brew "ddalcu/mlx-serve/mlx-serve"
 brew "etopeter/tap/kubectl-view-utilization", trusted: true
 brew "getsentry/tools/sentry-cli", trusted: true
 brew "go-swagger/go-swagger/go-swagger", trusted: true
-brew "go-task/tap/go-task", trusted: true
 brew "go-testfixtures/tap/testfixtures", trusted: true
 brew "grafana/pyroscope/pyroscope"
 brew "hashicorp/tap/terraform", trusted: true
@@ -200,14 +208,15 @@ brew "robscott/tap/kube-capacity"
 brew "robusta-dev/krr/krr"
 brew "skyhook-io/tap/radar"
 brew "stripe/stripe-cli/stripe", trusted: true
+brew "yfedoseev/tap/pdf-oxide", trusted: true
 cask "adobe-acrobat-reader"
-cask "block-goose"
 cask "chatgpt"
 cask "codex"
 cask "cyberduck"
 cask "db-browser-for-sqlite"
 cask "firefox"
 cask "gcloud-cli"
+cask "go-task/tap/go-task", trusted: true
 cask "handy"
 cask "iterm2"
 cask "joplin"
@@ -217,6 +226,7 @@ cask "localsend"
 cask "mattermost"
 cask "microsoft-auto-update"
 cask "microsoft-teams"
+cask "ddalcu/mlx-serve/mlx-core"
 cask "netnewswire"
 cask "opencode-desktop"
 cask "orbstack"
